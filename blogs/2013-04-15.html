@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<link href='../stylesheets/doc.css' rel='stylesheet' type='text/css' />
+<link href='favicon.png' rel='shortcut icon' />
+<script type="text/javascript" src="../javascripts/ga.js"></script>
+<title>blog的第三阶段</title>
+</head>
+
+<body>
+	<h1>java单例模式的误导性</h1>
+	<span class="date">2013-04-15</span>
+	<div class="divider"></div>
+	
+	<p>
+		周末几个同事聚在一起聊天，回顾起当初面试时经常问起的关于 java 的单例模式。<br>
+		有同事提出单例类的对象在 jvm 中只存在一个，这个观点是否正确？
+	</p>
+	
+	<p>
+		其实这种观点看似正确，给人很强的误导性，但并不准确。<br>
+		因为 java 的对象实例化与 classloader 密切相关。<br>
+		每个 classloader 都有自身的命名空间，在同一命名空间中是不允许同名类的。<br>
+		就我们谈及的单例而言，在同一个 classloader 的命名空间中有且仅有一个实例。<br>
+		所以，在一个 jvm 运行时，是有可能会包含实现单例模式类的多个实例的，它们只是处在不同的 classloader 命名空间中。<br>
+	</p>
+	
+	<p>
+		平时工作主要参与应用和业务开发，都很少会去接触 classloader 之类的。<br>
+		不了解其中的原理自然对单例的实现会产生一些误解。<br>
+		不过从思维的角度来说，即使不了解 jvm 和 classloader 原理层面的东西，也是可以判断出这个问题的答案。<br>
+		平时工作中的业务应用部署基本都是基于 tomcat 容器的，大家都了解 tomcat 是可以同时部署多个应用的。<br>
+		那么假设不同应用中如果包含了完全同名的类时，tomcat 在应用层面是有效隔离的。<br>
+		反过来也佐证了，同名类的多个实例其实可以同时存在于一个 jvm 中。<br>
+	</p>
+	
+	<p>	
+		所以这里谈的单例有个前提，是针对应用而言，同一个类的的实例对应用而言是唯一的，大部分的业务场景需求都是如此。<br>
+		而如果参照对象是 jvm，那么对应用而言的单例其实对 jvm 而言是多例的。
+	</p>
+</body>
+</html>
+
