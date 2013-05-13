@@ -15,6 +15,23 @@
 		function resizeIframe(obj) {
 			obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
 		}
+		
+		function loadIframe() {
+			var url = document.location.href;
+			var idx = url.indexOf('?');
+			var blogUrl = "2013.html";
+			var iframename = "blog-list-frame";
+			
+			if (idx > 0) {
+				var params = url.substr(idx + 1).split('=');
+				var paraValue = params[1];
+				blogUrl = "blogs/" + paraValue + ".html";  
+			}
+			
+			if (window.frames[iframename] ) {  
+				window.frames[iframename].location = blogUrl;  
+			}
+		}
 	</script>
 	
 	<script type="text/javascript" src="javascripts/ga.js"></script>
@@ -26,7 +43,7 @@
 	<title>mindwind's blog</title>
 </head>
 
-<body>
+<body onload="javascript:loadIframe();">
 	<header>
 		<div class="inner">
 			<a href="http://mindwind.me"><h1>mindwind's blog</h1></a>
@@ -41,7 +58,7 @@
 	<div id="content-wrapper">
 		<div class="inner clearfix">
 			<section id="main-content">
-				<iframe id="blog-list-frame" name="blog-list-frame" src="2013.html" width="100%" scrolling="no" onload='javascript:resizeIframe(this);'></iframe>
+				<iframe id="blog-list-frame" name="blog-list-frame" width="100%" scrolling="no" onload='javascript:resizeIframe(this);'></iframe>
 			</section>
 
 			<aside id="sidebar">
