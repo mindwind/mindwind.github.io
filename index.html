@@ -12,20 +12,33 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
 	<script language="javascript" type="text/javascript">
-		function resizeIframe(obj) {
+		function adjust(obj) {
+			// resize
 			obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+			
+			// change window url anchor
+			var frameUrl = window.frames["blog-list-frame"].location.href;
+			if (frameUrl != "about:blank") {
+				var s = frameUrl.lastIndexOf("/") + 1;
+				var e = frameUrl.lastIndexOf(".html");
+				var anchor = frameUrl.slice(s, e);
+				window.location.href = "#" + anchor;
+			}
 		}
 		
 		function loadIframe() {
 			var url = document.location.href;
-			var idx = url.indexOf('?');
+			var idx = url.indexOf("#");
 			var blogUrl = "2013.html";
 			var iframename = "blog-list-frame";
 			
 			if (idx > 0) {
-				var params = url.substr(idx + 1).split('=');
-				var paraValue = params[1];
-				blogUrl = "blogs/" + paraValue + ".html";  
+				var para = url.substr(idx + 1);
+				if (para.indexOf("-") > 0) {
+					blogUrl = "blogs/" + para + ".html";  
+				} else {
+					blogUrl = para + ".html";
+				}
 			}
 			
 			if (window.frames[iframename] ) {  
@@ -58,7 +71,7 @@
 	<div id="content-wrapper">
 		<div class="inner clearfix">
 			<section id="main-content">
-				<iframe id="blog-list-frame" name="blog-list-frame" width="100%" scrolling="no" onload='javascript:resizeIframe(this);'></iframe>
+				<iframe id="blog-list-frame" name="blog-list-frame" width="100%" scrolling="no" onload='javascript:adjust(this);'></iframe>
 			</section>
 
 			<aside id="sidebar">
