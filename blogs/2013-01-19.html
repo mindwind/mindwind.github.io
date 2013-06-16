@@ -74,7 +74,10 @@
 &lt;/dependencies&gt;	
 	</code></pre>
 	<p>有些项目采用在父 pom 中配置所有依赖，子模块继承时所有模块都将依赖所有依赖库，不符合最优最小依赖原则。</p>
-	
+	<p>有些时候我们需要临时改变所有pom中的版本号，可以使用versions插件执行以下命令</p>
+	<pre><code>
+mvn versions:set -DnewVersion=1.0.1-SNAPSHOT
+	</code></pre>
 	
 	<h2>发布管理</h2>
 	<ol>
