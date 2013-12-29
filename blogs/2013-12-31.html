@@ -136,6 +136,38 @@ participant newEntry = new participant(id, name, address1, address2, city,
 		以上原则的一些例子如图4所示：<br>
 		<img alt="" src="2013-12-31-4.png">
 	</p>
+	<p>
+		如下这个例子，有一个小而有趣的问题：
+		<pre><code>
+numFiles = countFiles(directory);
+		</code></pre>
+	</p>
+	<p>
+		countFiles 是一个不错的名字，但却不是最理想的名字，因为它是一个动词。<br>
+		动词被保留用作针对变量无副作用的过程调用。<br>
+		对于针对变量无副作用的函数调用采用名词或名词短语。<br>
+		人们通常不说：
+		<pre><code>
+Y = computeSine(X); 
+milesDriven = computeDistance(location1, location2);
+		</code></pre>
+	</p>
+	<p>
+		而是
+		<pre><code>
+Y = sine(X); or
+milesDriven = Distance(location1, location2);
+		</code></pre>
+	</p>
+	<p>
+		因此我们建议采用 fileCount 来稍稍改进。
+		<pre><code>
+numFiles = fileCount(directory);
+		</code></pre>
+	</p>
+	<p>
+		更重要的是，这强制了一个通用的原则：动词表示过程，名词或形容词表示函数。
+	</p>
 </body>
 </html>
 
