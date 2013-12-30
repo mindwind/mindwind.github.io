@@ -105,6 +105,17 @@ blockquote:first-letter {
 	font-weight  :bold;
 }
 
+code {
+	display         :inline-block;
+	font-family     :'Monaco';
+	font-size       :12px;
+	color           :rgb(136, 136, 136);
+	padding         :15px;
+	border          :1px solid #eeeeee;
+	border-radius   :10px;
+	background-color:#fefefe;
+	line-height     :24px;
+}
 
 .divider {
 	border-bottom: 1px solid #e4e4e4;
@@ -115,6 +126,7 @@ blockquote:first-letter {
 .remark {
 	background-color:#fefefe;
 	border          :1px solid #eeeeee;
+	border-radius   :10px;
 	color           :rgb(136, 136, 136);
 	display         :inline-block;
 	font-family     :'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
@@ -122,7 +134,7 @@ blockquote:first-letter {
 	font-style      :normal;
 	font-variant    :normal;
 	font-weight     :normal;
-	line-height     :28px;
+	line-height     :24px;
 	margin-top      :30px;
 	margin-bottom   :30px;
 	padding-top     :5px;
