@@ -1,33 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset='utf-8' />
-<link href='../stylesheets/doc.css' rel='stylesheet' type='text/css' />
-<link href='favicon.png' rel='shortcut icon' />
-<script type="text/javascript" src="../javascripts/ga.js"></script>
-<title>程序员的视角：java GC</title>
-</head>
+	<head>
+		<meta charset='utf-8'>
+	  	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	  	<link rel="stylesheet" href="/css/default.css">
+		<link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
+		<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="/js/default.js"></script>
+		<script type="text/javascript" src="/js/ga.js"></script>
+		
+		<title>程序员的视角：java GC</title>
+	</head>
 
-<body>
-	<h1>程序员的视角：java GC</h1>
-	<span class="date">2014-02-24</span>
-	<div class="divider"></div>
-	
-	<p>
-		GC（Garbage Collection 垃圾回收）的概念随着 java 的流行而被人们所熟知。
-		实际 GC 最早起源于20世纪60年代的 LISP 语言，是一种自动的内存管理机制。
-		GC 要解决的问题有 3 个：<br>
-		1. 回收什么？（what）<br>
-		2. 何时回收？（when）<br>
-		3. 如何回收？（how）<br>
-	</p>
-	
-	<p>
-		<b>回收什么？</b><br>
-		清理的是垃圾，回收的是内存空间。<br>
-		既然 GC 是 java 的自动内存管理机制，那么先看下 java 虚拟机将所管理的内存划分为不同的区域，如图1。
-	</p>
-	
-</body>
+	<body>
+		<div id="header" class="header"></div>
+		
+		<div id="center" class="center">
+			<div id="content" class="content">
+				<h1>程序员的视角：java GC</h1>
+				<span class="date">2014-02-24</span>
+				<div class="divider"></div>
+				
+				<p>
+					GC（Garbage Collection 垃圾回收）的概念随着 java 的流行而被人们所熟知。
+					实际 GC 最早起源于20世纪60年代的 LISP 语言，是一种自动的内存管理机制。
+					GC 要解决的问题有 3 个：<br>
+					1. 回收什么？（what）<br>
+					2. 何时回收？（when）<br>
+					3. 如何回收？（how）<br>
+				</p>
+				
+				<h3>回收什么？</h3>
+				<p>
+					清理的是垃圾，回收的是内存空间。<br>
+					既然 GC 是 java 的自动内存管理机制，那么先看下 java 虚拟机将所管理的内存划分为不同的区域，如图1。
+					
+				</p>
+				
+				<p>
+					如图1所示，java 虚拟机管理的内存区域分为如下几个部分：<br>
+					1. 堆（Heap） <br>
+					2. 方法区（Method Area）<br>
+					3. 虚拟机栈（VM Stack）<br>
+					4. 本地方法栈（Native Method Stack）<br>
+					5. 程序计数器（Program Counter Register）<br>
+					其中堆和方法区属于所有线程共享，而其他区域属于线程隔离的区域。<br>
+					下面我们以 java hotspot 虚拟机为例分别说说每个区域的作用和构成：
+				</p>
+				
+				<p>
+					<b>程序计数器（Program Counter Register）</b><br>
+					可以看作是线程执行的字节码的行号指示器，在虚拟机的概念模型中便于实现分支、循环、跳转、异常处理和线程切换恢复等基础功能。
+					每个线程都有一个独立的程序计数器。
+				</p>
+				
+				<p>
+					<b>虚拟机栈（VM Stack）</b><br>
+					虚拟机栈描述的是 java 方法执行的内存模型，每个方法在执行时创建一个栈帧（Stack Frame）。
+					栈帧中存储内容主要包含：<br>
+					- 局部变量表<br>
+					- 操作数栈<br>
+					- 动态链接<br>
+					- 方法返回地址<br>
+					每个方法的执行过程就对应着一个栈帧在虚拟机栈中入栈到出栈的过程。
+				</p>
+			</div>
+			<div id="aside"></div>
+		</div>
+		
+		<div id="footer" class="footer"></div>
+	</body>
 </html>
 
