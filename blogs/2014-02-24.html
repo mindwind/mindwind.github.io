@@ -5,13 +5,28 @@
 <link href='../stylesheets/doc.css' rel='stylesheet' type='text/css' />
 <link href='favicon.png' rel='shortcut icon' />
 <script type="text/javascript" src="../javascripts/ga.js"></script>
-<title>程序员的视角：java gc</title>
+<title>程序员的视角：java GC</title>
 </head>
 
 <body>
-	<h1>程序员的视角：java gc</h1>
+	<h1>程序员的视角：java GC</h1>
 	<span class="date">2014-02-24</span>
 	<div class="divider"></div>
+	
+	<p>
+		GC（Garbage Collection 垃圾回收）的概念随着 java 的流行而被人们所熟知。
+		实际 GC 最早起源于20世纪60年代的 LISP 语言，是一种自动的内存管理机制。
+		GC 要解决的问题有 3 个：<br>
+		1. 回收什么？（what）<br>
+		2. 何时回收？（when）<br>
+		3. 如何回收？（how）<br>
+	</p>
+	
+	<p>
+		<b>回收什么？</b><br>
+		清理的是垃圾，回收的是内存空间。<br>
+		既然 GC 是 java 的自动内存管理机制，那么先看下 java 虚拟机将所管理的内存划分为不同的区域，如图1。
+	</p>
 	
 </body>
 </html>
