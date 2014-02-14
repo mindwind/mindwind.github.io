@@ -35,7 +35,7 @@
 				<p>
 					清理的是垃圾，回收的是内存空间。<br>
 					既然 GC 是 java 的自动内存管理机制，那么先看下 java 虚拟机将所管理的内存划分为不同的区域，如图1。
-					
+					<a href="2014-02-24-1.png" target="_blank"><img src="2014-02-24-1.png" width="700"></a>
 				</p>
 				
 				<p>
@@ -46,15 +46,23 @@
 					4. 本地方法栈（Native Method Stack）<br>
 					5. 程序计数器（Program Counter Register）<br>
 					其中堆和方法区属于所有线程共享，而其他区域属于线程隔离的区域。<br>
-					下面我们以 java hotspot 虚拟机为例分别说说每个区域的作用和构成：
+					下面我们以 java HotSpot 虚拟机为例分别说说每个区域的作用和构成：
 				</p>
 				
 				<p>
-					<b>程序计数器（Program Counter Register）</b><br>
-					可以看作是线程执行的字节码的行号指示器，在虚拟机的概念模型中便于实现分支、循环、跳转、异常处理和线程切换恢复等基础功能。
-					每个线程都有一个独立的程序计数器。
+					<b>堆（Heap）</b><br>
+					堆用于存储对象实例，从内存回收的角度看，由于收集器基本都采用了分代收集算法，所以堆可以进一步细分为：<br>
+					- Eden 区<br>
+					- Survivor 0 区 （From）<br>
+					- Survivor 1 区 （To）<br>
+					- Old/Tenured 区<br>
+					其中 Eden、S0、S1 组成了新生代（Young/New Generation），Old/Tenured 为老年代。
 				</p>
-				
+				<p>
+					<b>方法区（Method Area）</b><br>
+					方法区存储虚拟机加载的类信息、常量、编译代码等数据。
+					HotSpot 虚拟机使用永久代（Permanent Generation）来实现方法区。
+				</p>
 				<p>
 					<b>虚拟机栈（VM Stack）</b><br>
 					虚拟机栈描述的是 java 方法执行的内存模型，每个方法在执行时创建一个栈帧（Stack Frame）。
@@ -64,6 +72,16 @@
 					- 动态链接<br>
 					- 方法返回地址<br>
 					每个方法的执行过程就对应着一个栈帧在虚拟机栈中入栈到出栈的过程。
+				</p>
+				<p>
+					<b>本地方法栈（Native Method Stack）</b><br>
+					本地方法栈与虚拟机栈类似，只不过服务于虚拟机执行 Native 方法时。
+					HotSpot 虚拟机的实现把虚拟机栈和本地方法栈合二为一。
+				</p>
+				<p>
+					<b>程序计数器（Program Counter Register）</b><br>
+					可以看作是线程执行的字节码的行号指示器，在虚拟机的概念模型中便于实现分支、循环、跳转、异常处理和线程切换恢复等基础功能。
+					每个线程都有一个独立的程序计数器。
 				</p>
 			</div>
 			<div id="aside"></div>
