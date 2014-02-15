@@ -95,7 +95,15 @@
 					对象的死亡判定，主流的 GC 实现都是通过可达性分析，形象点来说就是在基于引用建立的对象图中形成了孤岛的对象就是死亡的（可回收的）。
 				</p>
 				<p>
-					
+					<b>GC 分类</b><br>
+					- Minor GC<br>
+					- Major GC<br>
+					- Full  GC<br>
+					Minor GC 是针对新生代的回收，当 Eden 区空间满了时将触发 Minor GC。<br>
+					Major GC 是针对老年代的回收，当 Minor GC 发生时会拷贝对象到老年代，这个过程称为对象晋升（promotion）或老龄化（tenuring），细节我们后文再讲。<br>
+					为了避免对象晋升时老年代空间不足，收集器总是尝试预测剩余的空间是否足够以避免对象晋升失败，当晋升失败时就会发生 Full GC。<br>
+					Full  GC 是针对整个堆的操作，是非常昂贵的操作。除了在对象晋升失败时发生 Full GC，当堆自动调整大小时（Heap-Resizing）也会发生，不过可以通过设置
+					<code>-Xms</code>和<code>-Xmx</code>为相同的值来避免 Heap-Resizing。
 				</p>
 			</div>
 			<div id="aside"></div>
