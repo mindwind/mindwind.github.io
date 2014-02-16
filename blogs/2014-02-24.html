@@ -127,6 +127,12 @@
 					<b>ParNew Collector</b><br>
 					相当于 Serial 的多线程版本。
 				</p>
+				<p>
+					<b>Parallel Scavenge Collector</b><br>
+					与 ParNew 很像，但它的关注点在达到一个可控制的吞吐量（Throughput），这里吞吐量的定义是 CPU 用于运行用户代码的时间与 CPU总消耗时间的比值。<br>
+					因此 Parallel Scavenge 收集器也经常称为吞吐优先收集器，它还有个特点是自适应调节策略。
+					虚拟机会根据当前系统的运行情况收集监控信息，动态调整 Eden与Survivor区比例、晋升老年代对象年龄等参数，以提供最合适的停顿时间或最大的吞吐量。
+				</p>
 				
 			</div>
 			<div id="aside"></div>
