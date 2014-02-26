@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+	  	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	  	<link rel="stylesheet" href="/css/blog.css">
+		<link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
+		<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="/js/blog.js"></script>
+		<script type="text/javascript" src="/js/ga.js"></script>
+		
+		<title>程序设计的预防与诊断</title>
+	</head>
+
+<body>
+	<div id="header" class="header"></div>
+		
+		<div id="center" class="center">
+			<div id="content" class="content">
+				<span class="date">2013-07-02</span>
+				<h1>程序设计的预防与诊断</h1>
+				<img alt="" src="/blogs/2013-07-02.png">
+				
+				<p>		
+					最近一个月，生产环境上的程序偶发性的出现故障，而每次发生时现象都颇为诡异，神奇的是最后自己还能恢复。<br>
+					这有点像是癫痫病人，小心翼翼的生怕发作，弄的人神经紧张。<br>
+					程序一旦上了生产环境，基本就进入了隔离屋，这种偶然性的运行时问题，对程序开发者提出了更高的分析与诊断要求。
+				</p>
+				<p>
+					一直以来我们习惯性的把完成客户需求作为程序设计开发的主要任务，当需求实现了便认为程序开发完成。<br>
+					而对于运行时分析诊断类的非客户类需求，在程序代码比例中占据的很小。<br>
+					事实上，软件程序基本上应该包括三类代码:
+				</p>	
+				<p>
+			  		1. 功能性代码<br>
+					2. 诊断性代码<br>
+			  		3. 预防性代码<br>
+				</p>
+				<p>
+					一个程序软件，功能性代码是基本要求。<br>
+					诊断性代码，在大部分程序软件中可能只有日志输出算的上。<br>
+					日志作为诊断的缺点是无法很好的评估到底应该输出多少日志，在什么位置输出日志。<br>
+					而对于一些动态的运行时程序诊断工具，又很难在生产环境去实施。<br>
+					所以设计之初就需将诊断性的需求包含进去，但一个具备自诊断能力的软件程序是成本很高的。<br>
+					退而求其次，至少我们可以让其具备运行状态的自汇报能力，然后由开发者根据状态来做诊断。<br>
+					每类程序的『状态』都与其功能和业务密切相关，但它们也有其共性，那就是来自系统的状态。<br>
+					操作系统在这方面做了很好的示例，提供了很多报告其自身运行状态的接口和工具，应该善加利用。<br>
+				</p>
+				<p>
+					预防性代码的最基本表现是对异常进行设计处理，基本上所有程序都会包含这个部分，但大部分也仅有这个部分。<br>
+					异常的设计处理基本都包含在现代的高级编程语言中了，所以很多时候我们没意识到这其实是一种预防性编程。<br>
+					预防性编程的一种升级形式是灾备切换和容灾设计，由于实施的难度和成本效益大部分的非关键应用都不会做到这个层次。<br>
+					很多应用面对成本收益做了一种折衷的选择：降级。非核心功能或服务在必要情况下可以降级来保障核心功能稳定。<br>
+				</p>
+				<p>
+					综上，软件开发中三类程序代码所占的比例和实施策略，是效率和成本的平衡点，值得我们在设计时去考量。
+				</p>
+			</div>
+			<div id="aside"></div>
+		</div>
+		
+	<div id="footer" class="footer"></div>
+</body>
+</html>
+
