@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset='utf-8' />
-<link href='../stylesheets/doc.css' rel='stylesheet' type='text/css' />
-<link href='favicon.png' rel='shortcut icon' />
-<script type="text/javascript" src="../javascripts/ga.js"></script>
-<title>netty 与 mina 性能对比测评分析</title>
-</head>
+	<head>
+		<meta charset='utf-8'>
+	  	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	  	<link rel="stylesheet" href="/css/blog.css">
+		<link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
+		<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="/js/blog.js"></script>
+		<script type="text/javascript" src="/js/ga.js"></script>
+		
+		<title>netty 与 mina 性能对比测评分析</title>
+	</head>
 
 <body>
-	<h1>netty 与 mina 性能对比测评分析</h1>
-	<span class="date">2013-02-28</span>
-	<div class="divider"></div>
-	
-	
+	<div id="header" class="header"></div>
+		
+		<div id="center" class="center">
+			<div id="content" class="content">
+				<span class="date">2013-02-28</span>
+				<h1>netty 与 mina 性能对比测评分析</h1>
+				<img alt="" src="/blogs/2013-02-28.jpg">
+				
 	<h2>测试方法</h2>
 	<p>采用 mina 和 netty 各实现一个 基于 nio 的EchoServer，测试在不同大小网络报文下的性能表现。</p>
 	
@@ -167,6 +175,12 @@ netty				cpu
 		其实 netty2 和 mina 都出自同一人 Trustin Lee，后来他转投 apache 项目组将 netty 交给了社区继续维护，之后重新设计 mina 这个框架。<br>
 		从使用者感受上来说 mina 的 api 接口设计明显比 netty 更优雅。
 	</p>
+
+			</div>
+			<div id="aside"></div>
+		</div>
+		
+	<div id="footer" class="footer"></div>
 </body>
 </html>
 
