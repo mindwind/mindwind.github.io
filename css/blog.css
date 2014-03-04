@@ -81,8 +81,9 @@ aside a {
 .center {
 	overflow    : hidden;
 	padding-top : 70px;
-	margin-left : 165px;
-	margin-right: 165px;
+	margin-left : auto;
+	margin-right: auto;
+	width       : 940px;
 }
 
 .content {
