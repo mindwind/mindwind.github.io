@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset='utf-8' />
-<link href='../stylesheets/doc.css' rel='stylesheet' type='text/css' />
-<link href='favicon.png' rel='shortcut icon' />
-<script type="text/javascript" src="../javascripts/ga.js"></script>
-<title>Lease 机制在分布式系统中的应用</title>
-</head>
+	<head>
+		<meta charset='utf-8'>
+	  	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	  	<link rel="stylesheet" href="/css/blog.css">
+		<link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
+		<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="/js/blog.js"></script>
+		<script type="text/javascript" src="/js/ga.js"></script>
+		
+		<title>Lease 机制在分布式系统中的应用</title>
+	</head>
 
 <body>
-	<h1>Lease 机制在分布式系统中的应用</h1>
-	<span class="date">2012-08-24</span>
-	<div class="divider"></div>
-	
+	<div id="header" class="header"></div>
+		
+	<div id="center" class="center">
+		<div id="content" class="content">
+			<span class="date">2012-08-24</span>
+			<h1>Lease 机制在分布式系统中的应用</h1>
+			<img alt="" src="/blogs/2012-08-24.png">
+				
 	<p>
 		Lease 中文叫租约，是一种广泛应用于分布式系统领域的协议，它是一种维护分布式系统一致性的有效工具。<br>
 		Lease 通常定义为：颁发者在一定期限内給予持有者一定权利的协议。<br>
@@ -85,6 +94,12 @@
 		如果协议内容是保证内容不会被修改，那么这个租约就相当于读锁。<br>
 		如果协议内容是保证只能被某个客户端修改，那么这个租约就相当于写锁。
 	</p>
+
+		</div>
+		<div id="aside"></div>
+	</div>
+		
+	<div id="footer" class="footer"></div>
 </body>
 </html>
 
