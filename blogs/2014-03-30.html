@@ -5,10 +5,14 @@
 	  	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	  	<link rel="stylesheet" href="/css/blog.css">
+	  	<link rel="stylesheet" href="/css/code.css">
 		<link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
 		<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="/js/blog.js"></script>
 		<script type="text/javascript" src="/js/ga.js"></script>
+		<script type="text/javascript" src="/js/rainbow.js"></script>
+		<script type="text/javascript" src="/js/rainbow.generic.js"></script>
+		<script type="text/javascript" src="/js/rainbow.java.js"></script>
 		
 		<title>程序员的视角：java 线程</title>
 	</head>
@@ -24,7 +28,7 @@
 
 <p>
 在我们开始谈线程之前，不得不提下进程。<br>
-无论进程还是线程都是很抽象的概念，有一个关于进程和线程很形象的比喻帮我们更好的理解。
+无论进程还是线程都是很抽象的概念，有一个关于进程和线程很形象的比喻能帮我们更好的理解。
 </p>
 <blockquote>
 进程就像个房子，房子是一个包含了特定属性的容器，例如空间大小、卧室数量等。
@@ -50,9 +54,24 @@ java 作为一个跨平台的语言，自然要提供一个跨平台的线程实
 </p>
 <p>
 既然现在的java线程都采用原生系统线程来实现，那么是否每个java线程就对应一个系统内核线程？
-对Sun JDK而言，在Windows和Linux中都是采用的一对一模型，Linux提供一种称为轻量级进程（LWP）的高级抽象来避免应用直接使用内核线程。
+对sun jdk而言，在Windows和Linux中都是采用的一对一模型，Linux提供一种称为轻量级进程（LWP）的高级抽象来避免应用直接使用内核线程。
 而在像Solaris这样的系统中则不一定了，因为它支持多对多模型。
-不过对于底层系统的线程模型到底如何，对java线程而言都是被屏蔽了的，JVM层面提供了一个统一的抽象线程模型。
+不过对于底层系统的线程模型到底如何，对java线程而言都是被屏蔽了的，jvm层面提供了一个统一的抽象线程模型。
+</p>
+
+<h3>线程数量</h3>
+<p>
+曾经碰到一个问题，java程序运行中抛出一个OOM错误如下：<br>
+<code>java.lang.OutOfMemoryError: unable to create new native thread</code><br>
+这个问题的原因可能有两种，一种是内存真的不足了，自然无法再创建线程。
+另外一种其实是来自操作系统的限制，比如在Linux中，java线程会映射为轻量级进程，那么创建线程的数量自然会受到系统进程数量等资源约束的限制。
+</p>
+<p>
+对于一个java进程到底能创建多少线程呢，一般我们按经验线程都是在几十到几百之间，顶多1、2k了。
+这是为什么呢？java有个启动参数<code>-Xss1m</code>表明每个线程栈大小为1m，那么对内存一般2G的话，总线程数达到2k感觉上都是不可能的。
+但实际上做个实验在循环中不断创建新线程，可以不断创建多达几万的线程，这又是为什么？
+原因是新创建的线程其实仅仅分配了内存地址空间，但并没有实际去占用那1m的栈空间，栈空间是在线程使用时才去实际占用的。
+所以经验是对的，一般对2G的堆内存空间线程数量根据应用类型在几十到几百之间是合适的。
 </p>
 
 <h3>线程状态</h3>
@@ -82,6 +101,38 @@ java定义了6种线程状态，任一时刻一个线程处于其中一种状态
 <code>RUNNING</code>和<code>READY</code>都是线程在内核的状态，同时映射到java的<code>RUNNABLE</code>状态。
 <code>RUNNABLE</code>正如其名，表示可运行的状态，并非正在运行的状态。
 </p>
+
+<h3>线程池</h3>
+<p>
+java编程不可避免的要使用线程，而使用线程更常见的方式是使用线程池。
+说起池这个东西，我们应该比较熟悉，例如：连接池。
+其实池就是一个容器，里面有一堆预先创建好的对象，我们就称其为对象池，而当这个对象具体为线程，那就是线程池了。
+前面讲线程状态说过，线程执行从run()方法退出就会进入终止状态，那么这个线程就消亡了，不能再复用。
+线程池的概念就是要复用线程，避免创建开销，那么如何复用呢，其实就是要让池中的线程不用从run()方法中退出。
+所以为了复用线程，池的实现会与一个阻塞队列结合，空闲时线程阻塞在队列上等待任务到来，任务执行结束后再重新阻塞，永远不会退出。
+</p>
+<p>
+jdk1.5引入了<code>java.util.concurrent</code>并发包后，我们可以很方便的通过<code>ThreadPoolExecutor</code>来创建线程池
+</p>
+<pre><code data-language="java">
+public ThreadPoolExecutor
+(
+    int corePoolSize,
+    int maximumPoolSize,
+    long keepAliveTime,
+    TimeUnit unit,
+    BlockingQueue&lt;Runnable&gt; workQueue,
+    ThreadFactory threadFactory,
+    RejectedExecutionHandler handler
+)
+</code></pre>
+<p>
+如上所示的构造方法中，<code>corePoolSize</code>、<code>maximumPoolSize</code>和<code>workQueue</code>的关系一直让人容易误解。
+当待执行任务数大于<code>corePoolSize</code>时，多出的任务请求会被放进 <code>workQueue</code>中等待执行，直到<code>workQueue</code>满了后
+才会继续启动新线程直到总线程数达到<code>maximumPoolSize</code>的大小。
+</p>
+
+<h3></h3>
 			</div>
 			<div id="aside"></div>
 		</div>
