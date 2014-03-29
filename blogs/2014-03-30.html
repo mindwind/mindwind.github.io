@@ -52,7 +52,35 @@ java 作为一个跨平台的语言，自然要提供一个跨平台的线程实
 既然现在的java线程都采用原生系统线程来实现，那么是否每个java线程就对应一个系统内核线程？
 对Sun JDK而言，在Windows和Linux中都是采用的一对一模型，Linux提供一种称为轻量级进程（LWP）的高级抽象来避免应用直接使用内核线程。
 而在像Solaris这样的系统中则不一定了，因为它支持多对多模型。
-不过对于底层系统的线程模型到底如何，对java线程而言都是被屏蔽了的，jvm层面提供了一个统一的抽象线程模型。
+不过对于底层系统的线程模型到底如何，对java线程而言都是被屏蔽了的，JVM层面提供了一个统一的抽象线程模型。
+</p>
+
+<h3>线程状态</h3>
+<p>
+java定义了6种线程状态，任一时刻一个线程处于其中一种状态，其状态转换关系如下图：<br>
+<a href="2014-03-30-1.png" target="_blank"><img src="2014-03-30-1.png" /></a>
+</p>
+<pre><code>
+1. <a>NEW</a>
+   新创建未启动的线程处于该状态
+2. <a>RUNNABLE</a>
+   调用了start()方法后，线程进入RUNNABLE状态
+3. <a>WAITING</a>
+   不设置timeout的Object.wati()、Thread.join()等方法会让线程进入无限等待，需要等待其他线程显式的唤醒。
+4. <a>TIMED_WAITING</a>
+   Thead.sleep()或设置了timeout的Object.wati()、Thread.join()等方法让线程进入限期等待。
+5. <a>BLOCKED</a>
+   阻塞状态，线程在等待进入同步区域。
+6. <a>TERMINATED</a>
+   线程执行结束，终止状态。
+</code></pre>
+<p>
+从上面的状态图可以看出，线程从新建、执行到结束是单向的，期间可能会经历等待和阻塞状态，线程执行结束进入终止状态后将不能再重复使用。
+任何时候一个CPU核只能执行一个线程，也就是说同时并行运行的线程数与CPU核数相等。
+在操作系统内核层面，线程只有分配了CPU的执行时间片，才算处于<code>RUNNING</code>状态。
+而当有大于CPU核数的线程需要执行，没有分配到CPU执行时间片的线程则处于<code>READY</code>状态。
+<code>RUNNING</code>和<code>READY</code>都是线程在内核的状态，同时映射到java的<code>RUNNABLE</code>状态。
+<code>RUNNABLE</code>正如其名，表示可运行的状态，并非正在运行的状态。
 </p>
 			</div>
 			<div id="aside"></div>
