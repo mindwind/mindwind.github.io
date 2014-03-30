@@ -47,7 +47,7 @@
 <p>
 回到我们的题目：java 线程。
 java 作为一个跨平台的语言，自然要提供一个跨平台的线程实现。
-线程按类型可以分为内核线程和用户线程，分类的标准主要是线程的调度者在核内还是在核外。
+线程按类型可以分为内核线程（Kernel-Level Thread）和用户线程（User Thread），分类的标准主要是线程的调度者在核内还是在核外。
 早期时，一些操作系统因为没有提供线程的原生实现，所以早在JDK1.2之前，java是基于用户线程来实现的。
 用户线程是相对内核线程而言，内核线程自然是由操作系统内核支持的线程，由内核来管理和调度。
 后来主流操作系统都支持了线程，因此现在java都采用原生线程来实现了。
@@ -57,6 +57,8 @@ java 作为一个跨平台的语言，自然要提供一个跨平台的线程实
 对sun jdk而言，在Windows和Linux中都是采用的一对一模型，Linux提供一种称为轻量级进程（LWP）的高级抽象来避免应用直接使用内核线程。
 而在像Solaris这样的系统中则不一定了，因为它支持多对多模型。
 不过对于底层系统的线程模型到底如何，对java线程而言都是被屏蔽了的，jvm层面提供了一个统一的抽象线程模型。
+下图展示了在Linux上java线程实现的模型图<br>
+<a href="2014-03-30-2.png" target="_blank"><img src="2014-03-30-2.png" /></a>
 </p>
 
 <h3>线程数量</h3>
@@ -129,7 +131,8 @@ public ThreadPoolExecutor
 <p>
 如上所示的构造方法中，<code>corePoolSize</code>、<code>maximumPoolSize</code>和<code>workQueue</code>的关系一直让人容易误解。
 当待执行任务数大于<code>corePoolSize</code>时，多出的任务请求会被放进 <code>workQueue</code>中等待执行，直到<code>workQueue</code>满了后
-才会继续启动新线程直到总线程数达到<code>maximumPoolSize</code>的大小。
+才会继续启动新线程直到总线程数达到<code>maximumPoolSize</code>的大小，其示意图如下。<br>
+<a href="2014-03-30-3.png" target="_blank"><img src="2014-03-30-3.png" /></a>
 </p>
 
 <h3></h3>
