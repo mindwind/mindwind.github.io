@@ -34,6 +34,41 @@ RPC 的全称是 Remote Procedure Call 是一种进程间通信方式。
 即程序员无论是调用本地的还是远程的，本质上编写的调用代码基本相同。
 </p>
 
+<h2>RPC 起源</h2>
+<p>
+RPC 这个概念术语在上世纪 80 年代由 <a href="https://en.wikipedia.org/wiki/Bruce_Jay_Nelson" target="_blank">Bruce Jay Nelson</a> 提出。
+这里我们追溯下当初开发 RPC 的原动机是什么？
+在 Nelson 的论文 <a href="http://birrell.org/andrew/papers/ImplementingRPC.pdf" target="_target">"Implementing Remote Procedure Calls"</a> 中他提到了几点：<br>
+</p>
+<blockquote>
+1. 简单：RPC 概念的语义十分清晰和简单，这样建立分布式计算就更容易。<br>
+2. 高效：过程调用看起来十分简单而且高效。<br>
+3. 通用：在单机计算中过程往往是不同算法部分间最重要的通信机制。 <br>
+</blockquote>
+<p>
+通俗一点说，就是一般程序员对于本地的过程调用很熟悉，那么我们把 RPC 作成和本地调用完全类似，那么就更容易被接受，使用起来毫无障碍。
+Nelson 的论文发表于 30 年前，其观点今天看来确实高瞻远瞩，今天我们使用的 RPC 实现基本就是按这个目标来实现的。
+</p>
+
+<h2>RPC 结构</h2>
+<p>
+Nelson 的论文中指出实现 RPC 的程序包括 5 个部分：
+</p>
+<blockquote>
+1. User<br>
+2. User-stub<br>
+3. RPCRuntime<br>
+4. Server-stub<br>
+5. Server<br>
+</blockquote>
+<p>
+这 5 个部分的关系如下图所示<br>
+<a href="2014-09-15-1.png" target="_blank"><img src="2014-09-15-1.png" /></a><br>
+这里 user 就是 client 端，当 user 想发起一个远程调用时，它实际是通过本地调用 user-stub。
+user-stub 负责将调用的接口、方法和参数通过约定的协议规范进行编码并通过本地的 RPCRuntime 实例传输到远端的实例。
+远端 RPCRuntime 实例收到请求后交给 server-stub 进行解码后发起本地端调用，调用结果再返回给 user 端。
+</p>
+
 
 			</div>
 			<div id="aside"></div>
