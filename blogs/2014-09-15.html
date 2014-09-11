@@ -69,7 +69,11 @@ user-stub 负责将调用的接口、方法和参数通过约定的协议规范�
 远端 RPCRuntime 实例收到请求后交给 server-stub 进行解码后发起本地端调用，调用结果再返回给 user 端。
 </p>
 
-
+<h2>RPC 实现</h2>
+<p>
+Nelson 论文中给出的这个实现结构也成为后来大家参考的标准范本。
+大约 10 年前，我最早接触分布式计算时使用的 <a href="https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture" target="_blank">CORBAR</a> 实现结构基本与此类似。
+</p>
 
 			</div>
 			<div id="aside"></div>
