@@ -73,6 +73,20 @@ user-stub 负责将调用的接口、方法和参数通过约定的协议规范�
 <p>
 Nelson 论文中给出的这个实现结构也成为后来大家参考的标准范本。
 大约 10 年前，我最早接触分布式计算时使用的 <a href="https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture" target="_blank">CORBAR</a> 实现结构基本与此类似。
+CORBAR 为了解决异构平台的 RPC，使用了 IDL（Interface Definition Language）来定义远程接口，并将其映射到特定的平台语言中。
+后来大部分的跨语言平台 RPC 基本都采用了此类方式，比如我们熟悉的 Web Service（SOAP），近年开源的 Thrift 等。
+他们大部分都通过 IDL 定义，并提供工具来映射生成不同语言平台的 user-stub 和 server-stub，并提供框架库来提供 RPCRuntime 的支持。
+不过貌似每个不同的 RPC 框架都定义了各自不同的 IDL 格式，导致程序员的学习成本进一步上升（苦逼啊），Web Service 尝试建立业界标准，无赖标准规范复杂而效率偏低，否则 Thrift 等更高效的 RPC 框架就没必要出现了。
+</p>
+<p>
+IDL 是为了跨平台语言实现 RPC 不得已的选择，要解决更广泛的问题自然导致了更复杂的方案。
+而对于同一平台内的 RPC 而言显然没必要搞个中间语言出来，例如 java 原生的 RMI，这样对于 java 程序员而言显得更直接简单，降低使用的学习成本。
+目前市面上提供的 RPC 框架已经可算是五花八门，百家争鸣了。
+需要根据实际使用场景谨慎选型，需要考虑的选型因素我觉得至少包括下面几点：
+1. 性能指标
+2. 是否需要跨语言平台
+3. 内网开放还是公网开放
+4. 开源 RPC 框架本身的质量、社区活跃度
 </p>
 
 			</div>
