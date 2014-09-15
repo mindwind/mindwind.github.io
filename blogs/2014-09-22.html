@@ -28,6 +28,22 @@
 为实现该目标，RPC 框架需提供一种透明调用机制让使用者不必显式的区分本地调用和远程调用，在前文《浅出篇》中给出了一种实现结构，基于 stub 的结构来实现。
 下一节我们将具体细化 stub 结构的实现。
 </p>
+
+<h2>RPC 结构拆解</h2>
+<p>
+《浅出篇》给出了一个比较粗粒度的 RPC 实现概念结构，这里我们进一步细化它应该由哪些对象（组件）构成，如下图所示。
+<a href="2014-09-22-1.svg" target="_blank"><img src="2014-09-22-1.svg" width="690"/></a><br>
+</p>
+<p>
+RPC 服务方通过 <code>RpcServer</code> 去发布（export）远程接口方法，而客户方通过 <code>RpcClient</code> 去引入（import）远程接口方法。
+客户方像调用本地方法一样去调用远程接口方法，RPC 框架提供接口的代理实现，实际的调用将委托给代理 <code>RpcProxy</code> 。
+代理封装调用信息并将调用转交给 <code>RpcInvoker</code> 去实际执行。
+在客户端的 <code>RpcInvoker</code> 使用 <code>RpcProtocol</code> 执行协议编码（encode），并通过连接器 <code>RpcConnector</code> 去维持与服务端的通道并发送数据。
+</p>
+<p>
+RPC 服务端接收器 <code>RpcAcceptor</code> 接收客户端的调用请求，同样使用<code>RpcProtocol</code> 执行协议解码（decode）。
+解码后的调用信息传递给 <code>RpcProcessor</code> 去控制处理调用过程，最后再委托调用给 <code>RpcInvoker</code> 去实际执行并返回调用结果。
+</p>
 			</div>
 			<div id="aside"></div>
 		</div>
