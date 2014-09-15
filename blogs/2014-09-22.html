@@ -31,19 +31,46 @@
 
 <h2>RPC 结构拆解</h2>
 <p>
-《浅出篇》给出了一个比较粗粒度的 RPC 实现概念结构，这里我们进一步细化它应该由哪些对象（组件）构成，如下图所示。
+《浅出篇》给出了一个比较粗粒度的 RPC 实现概念结构，这里我们进一步细化它应该由哪些组件构成，如下图所示。
 <a href="2014-09-22-1.svg" target="_blank"><img src="2014-09-22-1.svg" width="690"/></a><br>
 </p>
 <p>
 RPC 服务方通过 <code>RpcServer</code> 去发布（export）远程接口方法，而客户方通过 <code>RpcClient</code> 去引入（import）远程接口方法。
 客户方像调用本地方法一样去调用远程接口方法，RPC 框架提供接口的代理实现，实际的调用将委托给代理 <code>RpcProxy</code> 。
 代理封装调用信息并将调用转交给 <code>RpcInvoker</code> 去实际执行。
-在客户端的 <code>RpcInvoker</code> 使用 <code>RpcProtocol</code> 执行协议编码（encode），并通过连接器 <code>RpcConnector</code> 去维持与服务端的通道并发送数据。
+在客户端的 <code>RpcInvoker</code> 使用 <code>RpcProtocol</code> 执行协议编码（encode），并通过连接器 <code>RpcConnector</code> 去维持与服务端的通道 <code>RpcChannel</code>，
+通过通道去传输数据。
 </p>
 <p>
 RPC 服务端接收器 <code>RpcAcceptor</code> 接收客户端的调用请求，同样使用<code>RpcProtocol</code> 执行协议解码（decode）。
 解码后的调用信息传递给 <code>RpcProcessor</code> 去控制处理调用过程，最后再委托调用给 <code>RpcInvoker</code> 去实际执行并返回调用结果。
 </p>
+
+<h2>RPC 组件职责</h2>
+<p>
+上面我们进一步拆解了 RPC 实现结构的各个组件组成部分，下面我们详细说明下每个组件的职责划分。
+</p>
+<pre><code>
+<b>RpcClient</b>
+负责引入（import）远程接口的代理实现
+<b>RpcServer</b>
+负责导出（export）远程接口
+<b>RpcProxy</b>
+远程接口的代理实现
+<b>RpcInvoker</b>
+客户方实现：负责编码调用信息和发送调用到服务方并等待调用结果返回
+服务方实现：负责调用服务端接口的具体实现并返回调用结果
+<b>RpcProtocol</b>
+负责协议编/解码
+<b>RpcConnector</b>
+负责维持客户方和服务方的连接通道和发送数据到服务方
+<b>RpcAcceptor</b>
+负责接收客户方请求并返回请求结果
+<b>RpcProcessor</b>
+负责在服务方控制调用过程，包括管理调用线程池、超时时间等
+<b>RpcChannel</b>
+数据传输通道
+</code></pre>
 			</div>
 			<div id="aside"></div>
 		</div>
