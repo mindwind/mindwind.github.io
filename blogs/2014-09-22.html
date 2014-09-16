@@ -5,9 +5,13 @@
 	  	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	  	<link rel="stylesheet" href="/css/blog.css">
+	  	<link rel="stylesheet" href="/css/code.css">
 		<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="/js/blog.js"></script>
 		<script type="text/javascript" src="/js/ga.js"></script>
+		<script type="text/javascript" src="/js/rainbow.js"></script>
+		<script type="text/javascript" src="/js/rainbow.generic.js"></script>
+		<script type="text/javascript" src="/js/rainbow.java.js"></script>
 		
 		<title>深入浅出 RPC - 深入篇</title>
 	</head>
@@ -51,10 +55,10 @@ RPC 服务端接收器 <code>RpcAcceptor</code> 接收客户端的调用请求�
 上面我们进一步拆解了 RPC 实现结构的各个组件组成部分，下面我们详细说明下每个组件的职责划分。
 </p>
 <pre><code>
-<b>RpcClient</b>
-负责引入（import）远程接口的代理实现
 <b>RpcServer</b>
 负责导出（export）远程接口
+<b>RpcClient</b>
+负责导入（import）远程接口的代理实现
 <b>RpcProxy</b>
 远程接口的代理实现
 <b>RpcInvoker</b>
@@ -71,6 +75,11 @@ RPC 服务端接收器 <code>RpcAcceptor</code> 接收客户端的调用请求�
 <b>RpcChannel</b>
 数据传输通道
 </code></pre>
+
+<h2>RPC 实现分析</h2>
+<p>
+再进一步拆解了组件并划分了职责之后，这里以在 java 平台实现该 RPC 框架概念模型为例，详细分析下实现中需要考虑的因素。
+</p>
 			</div>
 			<div id="aside"></div>
 		</div>
