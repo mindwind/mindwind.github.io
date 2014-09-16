@@ -80,6 +80,36 @@ RPC 服务端接收器 <code>RpcAcceptor</code> 接收客户端的调用请求�
 <p>
 再进一步拆解了组件并划分了职责之后，这里以在 java 平台实现该 RPC 框架概念模型为例，详细分析下实现中需要考虑的因素。
 </p>
+
+<h3>导出远程接口</h3>
+<p>
+导出远程接口的意思是指只有导出的接口可以供远程调用，而未导出的接口则不能。
+在 java 中导出整个接口的代码片段可能如下：
+</p>
+<pre><code data-language="java">
+DemoService demo   = new ...;
+RpcServer   server = new ...;
+server.export(DemoService.class, demo, options);
+</code></pre>
+<p>我们可以导出整个接口，也可以更细粒度一点只导出接口中的某些方法，如：</p>
+<pre><code data-language="java">
+// 只导出 DemoService 中签名为 hi(String s) 的方法
+server.export(DemoService.class, demo, "hi", new Class&lt;?&gt;[] { String.class }, options);
+</code></pre>
+<p>
+java 中还有一种比较特殊的调用就是多态，也就是一个接口可能有多个实现，那么远程调用时到底调用哪个？
+这个本地调用的语义时通过 jvm 提供的引用多态性隐式实现的，那么对于 RPC 来说时跨进程调用就没法隐式实现了。
+如果前面 <code>DemoService</code> 接口有 2 个实现，那么在导出接口时就需要特殊标记不同的实现，如：
+</p>
+<pre><code data-language="java">
+DemoService demo   = new ...;
+DemoService demo2  = new ...;
+RpcServer   server = new ...;
+server.export(DemoService.class, demo, options);
+server.export("demo2", DemoService.class, demo2, options);
+</code></pre>
+<p>上面 demo2 是另一个实现，我们标记为 "demo2" 来导出，远程调用时也需要传递该标记才能调用到正确的实现类。</p>
+
 			</div>
 			<div id="aside"></div>
 		</div>
