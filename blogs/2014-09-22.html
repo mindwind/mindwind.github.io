@@ -84,7 +84,7 @@ RPC 服务端接收器 <code>RpcAcceptor</code> 接收客户端的调用请求�
 <h3>导出远程接口</h3>
 <p>
 导出远程接口的意思是指只有导出的接口可以供远程调用，而未导出的接口则不能。
-在 java 中导出整个接口的代码片段可能如下：
+在 java 中导出接口的代码片段可能如下：
 </p>
 <pre><code data-language="java">
 DemoService demo   = new ...;
@@ -110,6 +110,28 @@ server.export("demo2", DemoService.class, demo2, options);
 </code></pre>
 <p>上面 demo2 是另一个实现，我们标记为 "demo2" 来导出，远程调用时也需要传递该标记才能调用到正确的实现类。</p>
 
+<h3>导入远程接口与客户端代理</h3>
+<p>
+导入相对于导出远程接口，客户端代码为了能够发起调用必须要获得远程接口的方法或过程定义。
+目前，大部分跨语言平台 RPC 框架采用根据 IDL 定义通过 code generator 去生成 stub 代码，这种方式下实际导入的过程就是通过代码生成器在编译期完成的。
+我所使用过的一些跨语言平台 RPC 框架，CORBAR、WebService、ICE、Thrift 均是此类方式。
+</p>
+<p>
+代码生成的方式对跨语言平台 RPC 框架而言是必然的选择，而对于同一语言平台的 RPC 则可以通过共享接口定义来实现。
+在 java 中导入接口的代码片段可能如下：
+</p>
+<pre><code data-language="java">
+RpcClient client = new ...;
+DemoService demo = client.refer(DemoService.class);
+demo.hi("how are you?");
+</code></pre>
+<p>
+在 java 中 'import' 是关键字，所以代码片段中我们用 refer 来表达导入接口的意思。
+这里的导入方式本质也是一种代码生成技术，只不过是在运行时生成，看起来比静态编译期的代码生成看起来更简洁些。
+java 里至少提供了两种技术来提供动态代码生成，一种是 jdk 动态代理，另外一种是字节码生成。
+动态代理相比字节码生成使用起来更方便，但动态代理方式在性能上是要逊色与直接的字节码生成的，而字节码生成在代码可读性上要差很多。
+两者权衡起来，个人认为牺牲一些性能来获得代码可读性和可维护性显得更重要。
+</p>
 			</div>
 			<div id="aside"></div>
 		</div>
