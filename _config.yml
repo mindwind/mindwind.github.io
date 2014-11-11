@@ -24,9 +24,9 @@ baseurl: ""
 
 # social icons and sharing options
 social:
-  - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
-    desc: Follow me on twitter
+  - icon:	weibo
+    url:	https://weibo.com/mindwind
+    desc: Follow me on weibo.com
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
