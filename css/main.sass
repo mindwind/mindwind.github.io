@@ -11,7 +11,7 @@
 $rs: 16px
 
 $font-serif: Linux Libertine
-$font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
+$font-sans: Merriweather, Open Sans, Helvetica
 
 
 @mixin respond-to($breakpoint)
@@ -120,8 +120,8 @@ body
     text-align: center
     color: #ccc
     a
-      text-decoration: none
       color: #999
+      text-decoration: none
       &:hover
         color: #333
 
@@ -218,16 +218,28 @@ body
   margin: 0 auto
   padding: $rs*3 0
   width: 100%
-  max-width: 640px
+  background-color: #FAFAFA
+  border-top-color: #F3F3F3
+  border-top-style: solid
+  border-top-width: 1px
+  display: block
+  font-family: Lato, Helvetica
   font-size: $rs/4*3
   text-align: center
-  color: #999
+  color: #7A7A7A
   line-height: $rs*1.1
   a
     color: #666
     text-decoration: none
     &:hover
       color: #333
+  .inner
+    a
+      color: #0096cc
+      text-decoration: none
+      &:hover
+        color: #b85b5a
+
 .post
   .article-image
     position: absolute
