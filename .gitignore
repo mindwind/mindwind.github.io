@@ -1,6 +1,6 @@
 *.DS_Store
 *.db
 *.project
-_site/*
 .sass-cache/*
 Gemfile.lock
+_site/*
