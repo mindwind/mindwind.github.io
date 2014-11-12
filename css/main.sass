@@ -168,10 +168,11 @@ img
       color: #b3b3b1
       line-height: 30px
       a
-        color: #b3b3b1
+        color: #0096cc
         text-decoration: none
         &:hover
-          text-decoration: underline
+          text-decoration: none
+          color: #b85b5a
 .container.featured
   padding-bottom: 40px
 
@@ -361,7 +362,7 @@ img
       text-overflow: ellipsis
   .post-content
     width: 100%
-    font-family: $font-serif
+    font-family: $font-sans
     color: #333
     h1, h2, h3
       font-family: $font-sans
@@ -385,7 +386,7 @@ img
     p
       font-weight: 300
       font-style: normal
-      font-size: $rs
+      font-size: $rs*1.25
       line-height: 32px
       margin: 0
       padding-bottom: 30px
@@ -397,7 +398,6 @@ img
       color: #0096cc
       text-decoration: none
       &:hover
-        text-decoration: none
         color: #b85b5a
     img
       max-width: 100%
@@ -607,10 +607,12 @@ img
 
 pre,
 code
-  font-size: 15px
-  border: 1px solid #e8e8e8
-  border-radius: 3px
-  background-color: #eef
+  font-family: Menlo, Monaco, 'Courier New', monospace
+  font-size: 14px
+  color: #7A7A7A
+  // border: 1px solid #e8e8e8
+  // border-radius: 3px
+  // background-color: #eef
 
 code
   padding: 1px 5px
