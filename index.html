@@ -57,16 +57,16 @@ layout: default
       {% for post in site.tags.featured %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
-            <div class="post-drawing">
-                <a href="{{ post.url }}"><img src="{{ post.image }}"></a>
-            </div>
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            </header>
             <div class="post-meta">
                   <time datetime="{{ post.date | date: '%Y-%m-%-d' }}">{{ post.date | date: "%Y-%m-%-d" }}</time>
   <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
             </div>
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            </header>
+            <div class="post-drawing">
+                <a href="{{ post.url }}"><img src="{{ post.image }}"></a>
+            </div>
             <section class="post-excerpt" itemprop="description">
               <p>
                 {{ post.content | strip_html | truncatewords: 6 }}
@@ -84,16 +84,16 @@ layout: default
       {% for post in paginator.posts %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
-            <div class="post-drawing">
-                <a href="{{ post.url }}"><img src="{{ post.image | prepend: site.baseurl }}"></a>
-            </div>
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            </header>
             <div class="post-meta">
               <time datetime="{{ post.date | date: '%Y-%m-%-d' }}">{{ post.date | date: "%Y-%m-%-d" }}</time>
 <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
             </div>
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            </header>
+            <div class="post-drawing">
+                <a href="{{ post.url }}"><img src="{{ post.image | prepend: site.baseurl }}"></a>
+            </div>
             <section class="post-excerpt" itemprop="description">
               <p>
                 {{ post.content | strip_html | truncatewords: 6 }}
