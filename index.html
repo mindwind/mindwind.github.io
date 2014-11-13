@@ -69,8 +69,7 @@ layout: default
             </header>
             <section class="post-excerpt" itemprop="description">
               <p>
-                {% if page.summary %}{{ post.summary }}<br>{% endif %}
-                {{ post.content | strip_html | truncatewords: 50 }}
+                {{ post.content | strip_html | truncatewords: 6 }}
               </p>
             </section>
           <div>
@@ -97,8 +96,7 @@ layout: default
             </header>
             <section class="post-excerpt" itemprop="description">
               <p>
-                {% if page.summary %}{{ post.summary }}<br>{% endif %}
-                {{ post.content | strip_html | truncatewords: 50 }}
+                {{ post.content | strip_html | truncatewords: 6 }}
               </p>
             </section>
           <div>
