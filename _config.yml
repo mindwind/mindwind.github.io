@@ -26,18 +26,18 @@ baseurl: ""
 social:
   - icon:	weibo
     url:	http://weibo.com/mindwind
-    desc: Follow me on weibo.com
+    desc: Follow me on weibo
     share_url: http://service.weibo.com/share/share.php
     share_title: ?title=
     share_link: "&url="
-    share_pic: "&pic=" 
+    share_pic: "&pic="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: //www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+  - icon: wechat
+    url:	http://wechat.com/
+    desc: Subscribe me on wechat
+    share_url: http://wechat.com/
+    share_title: ?title=
+    share_link: "&url="
 
   - icon:	github
     url:	https://github.com/mindwind

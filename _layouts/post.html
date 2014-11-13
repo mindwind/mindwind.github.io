@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 {% include post-header.html %}
 <main class="content" role="main">
   <article class="post">
@@ -37,10 +36,15 @@ layout: default
       <footer class="post-footer">
         <section class="share">
           {% for social in site.social %}
-            {% if social.share_url != null %}
+            {% if social.share_url != null and social.icon != "wechat" %}
               <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{page.title | cgi_escape}} （分享自 @云下山巅 的博客） {{social.share_link}}{{site.url}}{{page.id}} {{social.share_pic}}{{site.url}}{{page.image}}"
                 onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
-              <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
+                <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
+              </a>
+            {% endif %}
+            {% if social.icon == "wechat" %}
+              <a href="javascript:;" onclick="wechat()">
+                <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
               </a>
             {% endif %}
           {% endfor %}
@@ -49,3 +53,23 @@ layout: default
     </div>
   </article>
 </main>
+
+
+<script>
+  function wechat() {
+    $.layer({
+      type: 1,
+      title: false,
+      border: [0],
+      area: ['270px', '270px'],
+      page: {
+          html: '<div style="background-color:#fff; padding:20px; text-align:center; margin:0 auto;"><div id="wechat-qrcode"></div></div>'
+      }
+    });
+    jQuery('#wechat-qrcode').qrcode({
+      width: 250,
+      height: 250,
+      text: "{{site.url}}{{page.id}}"
+    });
+  }
+</script>
