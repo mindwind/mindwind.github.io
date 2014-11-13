@@ -27,9 +27,10 @@ social:
   - icon:	weibo
     url:	http://weibo.com/mindwind
     desc: Follow me on weibo.com
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+    share_url: http://service.weibo.com/share/share.php
+    share_title: ?title=
+    share_link: "&url="
+    share_pic: "&pic=" 
 
 #  - icon:	facebook
 #    url:	https://facebook.com/???
