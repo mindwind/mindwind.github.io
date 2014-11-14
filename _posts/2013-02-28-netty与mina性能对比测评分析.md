@@ -24,10 +24,8 @@ _「netty 和 mina 都是 java nio 网络框架著名的开源项目，如何在
      cpu cores:  4
      jdk:        1.6.0_30-b12
      network:    1000Mb
-
      memory:     -Xms256m -Xmx256m
      Linux:      centos 5.7, kernel 2.6.18-274.el5
-
 
 测试工具：
      jmeter v2.4
@@ -63,7 +61,6 @@ _「netty 和 mina 都是 java nio 网络框架著名的开源项目，如何在
 ## 测试结果
 <pre>
 mina        tps        cpu        network io      art(average response time)      90%rt
-
 1k          45024/sec  150%        50MB/sec               < 1ms                    1ms
 5k          10155/sec  90%         55MB/sec               3 ms                     1ms
 10k         8740/sec   137%        98MB/sec               3 ms                     4ms
@@ -73,7 +70,6 @@ mina        tps        cpu        network io      art(average response time)    
 
 <pre>
 netty        tps        cpu        network io      art(average response time)     90%rt
-
 1k          44653/sec   155%        50MB/sec              < 1ms                    1ms
 2k          35580/sec   175%        81MB/sec              < 1ms                    1ms
 5k          17971/sec   195%        98MB/sec              1ms                      2ms
