@@ -83,10 +83,13 @@ layout: default
           html: '<div style="background-color:#fff; padding:20px; text-align:center; margin:0 auto;"><div id="wechat-qrcode"></div></div>'
       }
     });
+
+    var link = decodeURI("{{site.url}}{{page.id}}");
+    alert(link);
     jQuery('#wechat-qrcode').qrcode({
       width: 250,
       height: 250,
-      text: "{{site.url}}{{page.id}}"
+      text: link
     });
   }
 </script>
