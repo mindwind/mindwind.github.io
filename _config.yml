@@ -1,0 +1,54 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+# Site settings
+title: "mindwind"
+description: > # this means to ignore newlines until "email:"
+   十日画一水，五日画一石
+
+email: mindwind.me@gmail.com
+#blog logo
+logo: "/assets/images/avatar.png"
+# blog cover
+cover: "/assets/images/cover.jpg"
+
+name: 'mindwind'
+author: 'mindwind'
+author_image: "/assets/images/avatar.png"
+
+paginate:	4
+
+url: "http://mindwind.me" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	weibo
+    url:	http://weibo.com/mindwind
+    desc: Follow me on weibo
+    share_url: http://service.weibo.com/share/share.php
+    share_title: ?title=
+    share_link: "&url="
+    share_pic: "&pic="
+
+  - icon: wechat
+    url:	http://wechat.com/
+    desc: Subscribe me on wechat
+    share_url: http://wechat.com/
+    share_title: ?title=
+    share_link: "&url="
+
+  - icon:	github
+    url:	https://github.com/mindwind
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:

@@ -1,3 +1,6 @@
 *.DS_Store
 *.db
 *.project
+.sass-cache/*
+Gemfile.lock
+_site/*
