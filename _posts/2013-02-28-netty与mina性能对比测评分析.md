@@ -3,7 +3,7 @@ layout    : post
 title     : netty与mina性能对比测评分析
 date      : 2013-02-28
 author    : mindwind
-categories: 2013
+categories: blog
 tags      : netty mina 性能
 image     : /assets/article_images/2013-02-28.jpg
 ---

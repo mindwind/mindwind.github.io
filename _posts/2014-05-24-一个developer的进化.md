@@ -3,7 +3,7 @@ layout    : post
 title     : 一个developer的进化
 date      : 2014-05-24
 author    : mindwind
-categories: 2014
+categories: blog
 tags      : developer 程序员
 image     : /assets/article_images/2014-05-24.png
 ---
