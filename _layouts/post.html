@@ -84,7 +84,7 @@ layout: default
       }
     });
 
-    var link = decodeURI("{{site.url}}{{page.id}}");
+    var link = encodeURI("{{site.url}}{{page.id}}");
     alert(link);
     jQuery('#wechat-qrcode').qrcode({
       width: 250,
