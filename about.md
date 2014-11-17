@@ -1,6 +1,8 @@
 ---
 layout   : page
 title    : 关于
+date      : 2014-11-17
+author    : mindwind
 permalink: /about/
 ---
 
