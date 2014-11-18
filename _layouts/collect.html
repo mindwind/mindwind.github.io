@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+{% include post-header.html %}
+<main class="content" role="main">
+  <article class="post">
+    <div class="noarticleimage">
+      <div class="post-meta">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="cf post-meta-text">
+          <!-- <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div> -->
+          <span class="author-name">{{ page.author }}</span>
+          &nbsp;·&nbsp;
+          <time datetime="{{ page.date | date: '%Y-%m-%-d' }}">{{ page.date | date: "%Y-%m-%-d" }}</time>
+          <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></s{{/foreach}} -->
+        </div>
+        <div class="cf post-meta-text">
+           原文：<a href="{{ page.link }}">{{ page.title }}</a>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="post-drawing">
+          <img src="{{ page.image }}">
+      </div>
+
+      <br>
+      <br>
+
+      <section class="post-content">
+        <a name="topofpage"></a>
+        {{content}}
+      </section>
+      <footer class="post-footer">
+        <section class="share">
+          {% for social in site.social %}
+            {% if social.share_url != null and social.icon != "wechat" %}
+              <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{page.title | cgi_escape}} （分享自 @云下山巅 的博客） {{social.share_link}}{{site.url}}{{page.id}} {{social.share_pic}}{{site.url}}{{page.image}}"
+                onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+                <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
+              </a>
+            {% endif %}
+            {% if social.icon == "wechat" %}
+              <a href="javascript:;" onclick="wechat()">
+                <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </section>
+      </footer>
+    </div>
+  </article>
+</main>
+
+
+<script>
+  (function ($) {
+    "use strict";
+
+    $(document).ready(function(){
+
+        var $window = $(window),
+            $image = $('.teaserimage-image');
+        $window.on('scroll', function() {
+            var top = $window.scrollTop();
+
+            if (top < 0 || top > 1500) { return; }
+            $image
+                .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+                .css('opacity', 1-Math.max(top/700, 0));
+        });
+        $window.trigger('scroll');
+
+    });
+  }(jQuery));
+
+  function wechat() {
+    $.layer({
+      type: 1,
+      title: false,
+      border: [0],
+      area: ['270px', '270px'],
+      page: {
+          html: '<div style="background-color:#fff; padding:20px; text-align:center; margin:0 auto;"><div id="wechat-qrcode"></div></div>'
+      }
+    });
+
+    var link = encodeURI("{{site.url}}{{page.id}}");
+    jQuery('#wechat-qrcode').qrcode({
+      width: 250,
+      height: 250,
+      text: link
+    });
+  }
+</script>
