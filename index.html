@@ -16,9 +16,16 @@ layout: default
     <h2 class="blog-description">{{ site.description }}</h2>
     <div class="custom-links">
       {% for social in site.social %}
-        <a class="icon-{{ social.icon }}" href="{{ social.url }}">
-          <i class="fa fa-{{ social.icon }}"></i>
-        </a>
+        {% if social.icon != "wechat" %}
+          <a class="icon-{{ social.icon }}" href="{{ social.url }}">
+            <i class="fa fa-{{ social.icon }}"></i>
+          </a>
+        {% endif %}
+        {% if social.icon == "wechat" %}
+          <a class="icon-{{ social.icon }}" href="javascript:;" onclick="wechat()">
+            <i class="fa fa-{{ social.icon }}"></i>
+          </a>
+        {% endif %}
         &nbsp;&nbsp;·&nbsp;&nbsp;
       {% endfor %}
       <a href="/about/">关于</a>
@@ -46,6 +53,18 @@ layout: default
         });
 
     }(jQuery));
+
+    function wechat() {
+      $.layer({
+        type: 1,
+        title: false,
+        border: [0],
+        area: ['270px', '270px'],
+        page: {
+            html: '<div style="background-color:#fff; padding:20px; text-align:center; margin:0 auto;"><img src="/assets/images/qrcode_wechat.jpg"></div>'
+        }
+      });
+    }
 </script>
 
 <main class="content" role="main">
