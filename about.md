@@ -1,9 +1,10 @@
 ---
-layout   : page
-title    : 关于
+layout    : page
+title     : 关于
 date      : 2014-11-17
 author    : mindwind
-permalink: /about/
+permalink : /about/
+image     : /assets/images/my_photo.jpg
 ---
 
 
