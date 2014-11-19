@@ -8,20 +8,22 @@ layout: default
     <div class="noarticleimage">
       <div class="post-meta">
         <h1 class="post-title">{{ page.title }}</h1>
+        {% if page.image %}
         <div class="cf post-meta-text">
-          <!-- <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div> -->
           <span class="author-name">{{ page.author }}</span>
           &nbsp;·&nbsp;
           <time datetime="{{ page.date | date: '%Y-%m-%-d' }}">{{ page.date | date: "%Y-%m-%-d" }}</time>
-          <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></s{{/foreach}} -->
         </div>
+        {% endif %}
       </div>
 
       <br>
 
+      {% if page.image %}
       <div class="post-drawing">
           <img src="{{ page.image }}">
       </div>
+      {% endif %}
 
       <br>
       <br>
@@ -33,26 +35,3 @@ layout: default
     </div>
   </article>
 </main>
-
-
-<script>
-  (function ($) {
-    "use strict";
-
-    $(document).ready(function(){
-
-        var $window = $(window),
-            $image = $('.teaserimage-image');
-        $window.on('scroll', function() {
-            var top = $window.scrollTop();
-
-            if (top < 0 || top > 1500) { return; }
-            $image
-                .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
-                .css('opacity', 1-Math.max(top/700, 0));
-        });
-        $window.trigger('scroll');
-
-    });
-  }(jQuery));
-</script>
