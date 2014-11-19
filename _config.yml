@@ -46,6 +46,10 @@ social:
     share_title:
     share_link:
 
+  - icon: files-o
+    url: /collect
+
+
 #  - icon:	google-plus
 #    url:	https://google.com/???
 #    desc:	Add me on google+
