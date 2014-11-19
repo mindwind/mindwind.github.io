@@ -2,6 +2,7 @@
 layout   : page
 title    : 好文收录
 permalink: /collect/
+image    : /assets/images/collect.jpg
 ---
 
 
