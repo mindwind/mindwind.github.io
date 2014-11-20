@@ -47,10 +47,13 @@ social:
     share_link:
 
   - icon: files-o
-    url: /collect
+    url:  /collect
 
   - icon: book
-    url:  http://book.douban.com/people/mindwind/doulists
+    url:  /book
+
+  - icon: file-powerpoint-o
+    url:  /slide
 
 
 #  - icon:	google-plus
