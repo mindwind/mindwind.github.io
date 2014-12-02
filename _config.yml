@@ -8,10 +8,13 @@ description: > # this means to ignore newlines until "email:"
    十日画一水，五日画一石
 
 email: mindwind.me@gmail.com
-#blog logo
+# blog logo
 logo: "/assets/images/avatar.png"
 # blog cover
 cover: "/assets/images/cover.jpg"
+cover_post: "/assets/images/cover-post.jpg"
+cover_about: "/assets/images/cover-about.jpg"
+
 
 name: 'mindwind'
 author: 'mindwind'
