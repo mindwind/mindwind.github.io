@@ -1,5 +1,5 @@
 ---
-layout   : page
+layout   : collect
 title    : 好文收录
 permalink: /collect/
 image    : /assets/images/collect.jpg

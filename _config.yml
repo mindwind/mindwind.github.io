@@ -14,6 +14,9 @@ logo: "/assets/images/avatar.png"
 cover: "/assets/images/cover.jpg"
 cover_post: "/assets/images/cover-post.jpg"
 cover_about: "/assets/images/cover-about.jpg"
+cover_book: "/assets/images/cover-book.jpg"
+cover_collect: "/assets/images/cover-collect.jpg"
+cover_slide: "/assets/images/cover-slide.jpg"
 
 
 name: 'mindwind'

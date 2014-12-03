@@ -1,5 +1,5 @@
 ---
-layout   : page
+layout   : book
 title    : 读书推荐
 permalink: /book/
 image    : /assets/images/book.jpg

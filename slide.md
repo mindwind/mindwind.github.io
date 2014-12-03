@@ -1,5 +1,5 @@
 ---
-layout   : page
+layout   : slide
 title    : 演示分享
 permalink: /slide/
 image    : /assets/images/slide.jpg
