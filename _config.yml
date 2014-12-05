@@ -17,6 +17,7 @@ cover_about: "/assets/images/cover-about.jpg"
 cover_book: "/assets/images/cover-book.jpg"
 cover_collect: "/assets/images/cover-collect.jpg"
 cover_slide: "/assets/images/cover-slide.jpg"
+cover_archive: "/assets/images/cover-archive.jpg"
 
 
 name: 'mindwind'
@@ -51,6 +52,9 @@ social:
     share_url:
     share_title:
     share_link:
+
+  - icon: archive
+    url:  /archive
 
   - icon: files-o
     url:  /collect
