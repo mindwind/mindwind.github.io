@@ -9,7 +9,7 @@ image    : /assets/images/my_photo.jpg
 
 
 本人程序员一枚，[mindwind](http://mindwind.me) 是我常用的网名。  
-目前就职于 [京东](http://jd.com) 成都研究院，从事京东咚咚后台架构工作。
+目前就职于 [京东](http://jd.com) 成都研究院，负责京东咚咚后台架构工作。
 
 
 ## <i class="fa fa-github"></i>
