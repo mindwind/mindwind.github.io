@@ -37,7 +37,7 @@ layout: default
         <section class="share">
           {% for social in site.social %}
             {% if social.share_url != null and social.icon != "wechat" %}
-              <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{page.title | cgi_escape}} （分享自 @云下山巅 的博客） {{social.share_link}}{{site.url}}{{page.id}} {{social.share_pic}}{{site.url}}{{page.image}}"
+              <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{page.title | cgi_escape}} （分享自 @云下山巅 的博客） {{social.share_link}}{{site.url}}/collect/{{page.date}}-{{page.title}}.html {{social.share_pic}}{{site.url}}{{page.image}}"
                 onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
                 <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
               </a>
@@ -87,7 +87,7 @@ layout: default
       }
     });
 
-    var link = encodeURI("{{site.url}}{{page.id}}");
+    var link = encodeURI("{{site.url}}/collect/{{page.date}}-{{page.title}}.html");
     jQuery('#wechat-qrcode').qrcode({
       width: 250,
       height: 250,
