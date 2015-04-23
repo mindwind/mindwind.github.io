@@ -8,6 +8,9 @@ image    : /assets/images/collect.jpg
 
 ## 2015
 -------------------------------------------------------------------------------
+  - 2015-04-22 [为什么重写代码？](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=210785461&idx=1&sn=1f36977945bc5455adbb2dcabc07404c#rd)
+  - 2015-04-16 [屌丝怎样逆袭](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=210553300&idx=1&sn=f009836416ed6d82dd4a2e93fdbe1871#rd)
+  - 2015-04-15 [别做计划啦，免得自己伤心](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=210508444&idx=1&sn=3c42618bd2efe4163659973232d5ada7#rd)
   - 2015-03-24 [一个老人留下的“剑”，传给能挥舞它的人](/collect/2015-03-24-一个老人留下的“剑”，传给能挥舞它的人.html)
   - 2015-03-18 [简短而深刻的问答](/collect/2015-03-18-简短而深刻的问答.html)
   - 2015-02-13 [人才流动：互联网化背后的无奈](/collect/2015-02-13-人才流动：互联网化背后的无奈.html)
