@@ -8,6 +8,8 @@ image    : /assets/images/collect.jpg
 
 ## 2015
 -------------------------------------------------------------------------------
+  - 2015-06-04 [朋友：利益还是感情？](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=212685047&idx=1&sn=c6637e5bae4f355ab17952b175dc3d49#rd)
+  - 2015-05-27 [如何对待逐渐疏远的朋友](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=212276407&idx=1&sn=0d3166f90c23ca34d1691b38ee8a5f6f#rd)
   - 2015-05-06 [程序员的成长和代码行数的关系](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=211244989&idx=1&sn=02d3612c3dd48d7080c08f9a1fdaa890#rd)
   - 2015-04-22 [为什么重写代码？](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=210785461&idx=1&sn=1f36977945bc5455adbb2dcabc07404c#rd)
   - 2015-04-16 [屌丝怎样逆袭](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=210553300&idx=1&sn=f009836416ed6d82dd4a2e93fdbe1871#rd)
