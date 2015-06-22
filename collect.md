@@ -8,6 +8,8 @@ image    : /assets/images/collect.jpg
 
 ## 2015
 -------------------------------------------------------------------------------
+  - 2015-06-22 [25岁的你，该如何实现财富自由](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=213501675&idx=1&sn=144872466ed15e59f4a7ef2c45768e38#rd)
+  - 2015-06-16 [为了对生活发生兴趣，我们付出了多大努力](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=213243283&idx=1&sn=59773cb8ef5cf8270f605a9e4aec7e8a#rd)
   - 2015-06-04 [朋友：利益还是感情？](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=212685047&idx=1&sn=c6637e5bae4f355ab17952b175dc3d49#rd)
   - 2015-05-27 [如何对待逐渐疏远的朋友](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=212276407&idx=1&sn=0d3166f90c23ca34d1691b38ee8a5f6f#rd)
   - 2015-05-06 [程序员的成长和代码行数的关系](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=211244989&idx=1&sn=02d3612c3dd48d7080c08f9a1fdaa890#rd)
