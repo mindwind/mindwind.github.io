@@ -1,11 +1,11 @@
 ---
 layout    : post
-title     : 后端分布式系列：分布式存储-HDFS架构解析
+title     : 后端分布式系列：分布式存储-HDFS Namenode 实现解析
 date      : 2015-08-18
 author    : mindwind
 categories: blog
-tags      : 分布式存储 HDFS
-image     : /assets/article_images/2015-08-18.jpg
+tags      : 分布式存储 HDFS Namenode
+image     : /assets/article_images/2015-08-19.jpg
 ---
 
 
@@ -40,7 +40,7 @@ image     : /assets/article_images/2015-08-18.jpg
 从图中可见，HDFS 采用的是中心总控式架构，Namenode 就是集群的中心节点。
 
 ### Namenode
-Namenode 的职责是管理整个文件系统的元信息（Metadata），元信息主要包括：
+Namenode 的主要职责是管理整个文件系统的元信息（Metadata），元信息主要包括：
 
   - File system namesapce  
     `HDFS 类似单机文件系统以目录树的形式组织文件，称为 file system namespace`
@@ -83,6 +83,21 @@ Namenode 使用一个事务日志文件 EditLog 来持久化记录针对文件�
 其余的线程只需要检查它们的事务是否被保存到了文件而不再需要再发起 flush-and-sync 操作。
 
 
+### Datanode
+Datanode 的职责如下：
+
+  - 存储文件块（block）
+  - 服务响应 Client 的文件读写请求  
+  - 执行文件块的创建、删除和复制  
+
+HDFS 的文件存储方式是将文件按块（block）切分，默认一个 block 64MB。
+若文件大小超过一个 block 的容量可能会被切分为很多个 block，存储在不同的 Datanode 上。
+若文件大小小于一个 block 的容量，则文件只有一个 block，实际占用的存储空间为文件大小容量加上一点额外的校验数据。
+
+Datanode 启动
+
+
+
 ## 参考
-[1] Hadoop Doc. [HDFS Architecture](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html).
+[1] Hadoop Documentation. [HDFS Architecture](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html).
 [2] Robert Chansler, Hairong Kuang, Sanjay Radia, Konstantin Shvachko, and Suresh Srinivas. [The Hadoop Distributed File System](http://www.aosabook.org/en/hdfs.html)
