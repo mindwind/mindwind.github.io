@@ -1,6 +1,6 @@
 ---
 layout    : post
-title     : 后端分布式系列：分布式存储-HDFS Datanode 实现解析
+title     : 后端分布式系列：分布式存储-HDFS Datanode 设计实现解析
 date      : 2015-08-20
 author    : mindwind
 categories: blog
