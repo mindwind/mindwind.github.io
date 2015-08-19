@@ -9,7 +9,7 @@ image     : /assets/article_images/2015-08-19.jpg
 ---
 
 
-本文进一步拆解 HDFS Namenode 的设计和实现考虑。
+本文进一步解析 HDFS Namenode 的设计和实现要点。
 
 
 ## 元信息持久化
@@ -52,6 +52,13 @@ HDFS 对于磁盘均衡的定义如下：
 实际做法是直接从 Rack2 的 A3 复制一份得到 A4，并删除 Rack1 上的 A1，这样就避免了机架间复制。
 
 
+## 复制管理
+Namenode 努力确保每一个副本符合配置的 replication factor。
+假如 Datanode 宕机发生导致一些文件的 block 副本数变少，Namdenode 会复制新的副本以保持与配置的副本数一致。
+当宕机的 Datanode 恢复后重新加入集群后会导致那些文件的副本数超出配置数，Namenode 会检测到并删除多余的副本以节省存储空间。
+Namenode 维护一个复制优先级队列，对于副本不足的文件 block，按优先级存放，仅存一个副本的文件 block 享有最高优先级。
+
+
 ## 性能设计
 除了 Namenode 的单点和重启过程影响可用性外，另一个担忧因素是性能。
 读操作基于内存访问还好，写操作中磁盘是一个瓶颈点。
@@ -69,9 +76,6 @@ HDFS 对于磁盘均衡的定义如下：
 而且 HDFS 基于 java 实现，java 针对大堆内存的 GC 优化也是个麻烦事。
 再次上面描述的 Namenode 的启动过程看起来就很耗时，特别是在 FsImage 和 EditLog 都很大的情况下。
 而且在 Namenode 的启动完成前整个 HDFS 是不可用的，所以 Namenode 即使是重启也对整体的可用性有很大影响。
-
-
-
 
 
 ## 参考
