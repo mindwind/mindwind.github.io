@@ -80,6 +80,21 @@ Client 将文件组织成一个个 packet 发送给流水线上第一个 DataNod
 
 
 ## 生命周期
+DataNode 启动后首先连接到 NameNode 完成握手，握手的目的是验证 DataNode 的软件版本和 namespace ID。
+namespace ID 是整个 HDFS 集群的唯一标识，如果 DataNode namespace ID 或 软件版本与 NameNode 不匹配，DataNode 将无法加入集群并自动关闭。
+若是一个全新的 DataNode 启动时没有 namespace ID 信息，则在握手时由 NameNode 分配并加入集群。
+此外，NameNode 还会分配一个集群全局唯一的 storage ID 给 DataNode，用以标记之后不再改变。
+
+完成握手后，DataNode 会立刻向 NameNode 发送 block report 信息，block report 就是 DataNode 上存储了哪些文件 block 列表。
+之后会定期（默认 1 小时）向 NameNode 报告。此外，DataNode 将定时向 NameNode 发送心跳（默认 3 秒）来报告自身的存活性。
+一段时间（默认 10 分钟）收不到 DataNode 最近的心跳，NameNode 会认定其死亡，并不会再将 I/O 请求转发到其上。
+心跳除了用于 DataNode 报告其存活性，NameNode 也通过心跳回复来带回一些控制命令要求 DataNode 执行，
+因为 NameNode 设计上不直接调用 DataNode，所以其控制命令都是通过心跳回复来执行，所以心跳的默认间隔比较短。
+
+除了 DataNode 的非正常死亡外，DataNode 还可以正常退休，可以通过管理标记一个 DataNode 进入退休中（decommissioning）状态。
+处于退休中状态的 DataNode 不再服务于写入请求（包括从 Client 写入或从其他 DataNode 复制），但它可以继续服务读请求。
+进入退休中状态的 DataNode 将被安排将其上存储的所有 block 复制到其他节点，
+完成这个过程后 NameNode 将其标记为已退休（decommissioned）状态，然后就可以安全下线了。
 
 
 ## 总结
