@@ -41,10 +41,12 @@ HDFS 定义了一种 multi-reader, single-writer 的文件访问语义。
 下面我们分别讲述文件的三种操作的设计实现要点。
 
 ### 写文件
-在分布式环境下，Client 请求 NameNode 获得一个针对指定文件的租约（lease，本质上是一种分布式锁，详细请自行维基百科下）。
+![](/assets/article_images/2015-08-20-1.jpg)
+
+文件读取流程如图示，在分布式环境下，Client 请求 NameNode 获得一个针对指定文件的租约（lease，本质上是一种分布式锁，详细请自行维基百科下）。
 只有持有该租约的 Client 可以向该文件写入，以这种机制来确保写文件的 single-writer 的语义。
 获得写入租约后 NameNode 向 Client 分配一组用于存放文件数据的 DataNodes，若配置的副本数为 3，则会返回 3 个 DataNode。
-这一组 DataNodes 被组成一条流水线来写入（如下图）流水线提升写入性能降低写入延迟。
+这一组 DataNodes 被组成一条流水线来写入，有效提升写入性能降低写入延迟。
 Client 将文件组织成一个个 packet 发送给流水线上第一个 DataNode，第一个 DataNode 存储下该 packet 后再转发给第二个 DataNode，依此类推。
 然后 DataNodes 再按流水线反方向发回确认 packet 给 Client。
 当所有文件 block 写入完成后，DataNodes 会向 NameNode 报告文件的 block 接收完毕，NameNode 相应去改变文件元数据的状态。
@@ -56,7 +58,9 @@ Client 将文件组织成一个个 packet 发送给流水线上第一个 DataNod
 本文先不再这里展开论述，后面会专门撰文深入分析。
 
 ### 读文件
-文件读取流程如下图，Client 首先请求 NameNode 定位文件 block 所在的 DataNodes。
+![](/assets/article_images/2015-08-20-2.jpg)
+
+文件读取流程如图示，Client 首先请求 NameNode 定位文件 block 所在的 DataNodes。
 然后按顺序请求对应的 DataNodes 读取其上存储的 block。
 读取顺序，HDFS 有一个就近读取的优化策略，DataNodes 的读取排序会按照它们离 Client 的距离来确定。
 距离的概念主要区分以下几种场景：
@@ -67,7 +71,7 @@ Client 将文件组织成一个个 packet 发送给流水线上第一个 DataNod
   - 距离 8，表示不同的数据中心
 
 ### 删文件
-文件读取流程如下图，将文件冲重命名后放进 `/trash` 目录。
+文件删除的处理首先将文件重命名后放进 `/trash` 目录。
 文件会在 `/trash` 目录中存放一段时间（可配置），在时间到期后再自动清理。
 所以实际上文件删除操作非常轻量级，仅仅是 NameNode 的内存数据结构的变动，真正的物理删除在后续的自动清理时才做。
 
