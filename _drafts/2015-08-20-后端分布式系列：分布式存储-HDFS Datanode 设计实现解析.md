@@ -30,6 +30,33 @@ DataNode 会主动周期性的运行一个 block 扫描器（scanner）通过比
 
 
 ## 文件操作
+HDFS 支持的文件操作包括写入（新增、追加）、读取和删除。
+HDFS 定义了一种 multi-reader, single-writer 的文件访问语义。
+而访问标准依然参照大家熟悉的依据 POSIX（Portable Operating System Interface）为单机文件系统定义的 API。
+
+  - Open 打开文件  
+  - Read/Write 读写文件  
+  - Close 关闭文件
+
+下面我们分别讲述文件的三种操作的设计实现要点。
+
+### 写文件
+在分布式环境下，Client 请求 NameNode 获得一个针对指定文件的租约（lease，本质上是一种分布式锁，详细请自行维基百科下）。
+只有持有该租约的 Client 可以向该文件写入，以这种机制来确保写文件的 single-writer 的语义。
+获得写入租约后 NameNode 向 Client 分配一组用于存放文件数据的 DataNodes，若配置的副本数为 3，则会返回 3 个 DataNode。
+这一组 DataNodes 被组成一条流水线来写入（如下图）流水线提升写入性能降低写入延迟。
+Client 将文件组织成一个个 packet 发送给流水线上第一个 DataNode，第一个 DataNode 存储下该 packet 后再转发给第二个 DataNode，依此类推。
+然后 DataNodes 再按流水线反方向发回确认 packet 给 Client。
+当所有文件 block 写入完成后，DataNodes 会向 NameNode 报告文件的 block 接收完毕，NameNode 相应去改变文件元数据的状态。
+
+写文件的主体流程如上所述，如果过程中一切正常那么多么简单美好。
+但实际在分布式环境下，写文件过程涉及 Client、NameNode 和一组 DataNodes，这其中任何一个环节都有可能产生异常。
+按照分布式设计第一原则：Design for failure，我们需要考这个流程中的所有参与者都有可能出现失败异常的情况。
+这里先提出这个问题，考虑每种失败异常的场景下，软件设计实现要怎么去处理？
+本文先不再这里展开论述，后面会专门撰文深入分析。
+
+
+
 
 
 ## 生命周期
@@ -41,3 +68,4 @@ DataNode 会主动周期性的运行一个 block 扫描器（scanner）通过比
 ## 参考
 [1] Hadoop Documentation. [HDFS Architecture](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html).
 [2] Robert Chansler, Hairong Kuang, Sanjay Radia, Konstantin Shvachko, and Suresh Srinivas. [The Hadoop Distributed File System](http://www.aosabook.org/en/hdfs.html)
+[3] Tom White. [Hadoop: The Definitive Guide](http://book.douban.com/subject/10464777/). O'Reilly Media(2012-05), pp 94-96
