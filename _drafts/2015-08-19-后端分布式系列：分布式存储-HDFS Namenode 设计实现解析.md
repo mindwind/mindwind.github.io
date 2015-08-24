@@ -9,7 +9,9 @@ image     : /assets/article_images/2015-08-19.jpg
 ---
 
 
-本文进一步解析 HDFS NameNode 的设计和实现要点。
+接前文 [布式存储-HDFS 架构解析]({% post_url 2015-08-18-后端分布式系列：分布式存储-HDFS 架构解析 %})，
+我们总体分析了 HDFS 架构的主要构成组件包括：NameNode、DataNode 和 Client。
+本文首先进一步解析 HDFS NameNode 的设计和实现要点。
 
 
 ## 元信息持久化
