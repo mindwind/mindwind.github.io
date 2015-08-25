@@ -1,6 +1,6 @@
 ---
 layout    : post
-title     : 后端分布式系列：分布式存储-HDFS DataNode 设计实现解析
+title     : 后端分布式系列：分布式存储－HDFS DataNode 设计实现解析
 date      : 2015-08-20
 author    : mindwind
 categories: blog
@@ -107,6 +107,6 @@ namespace ID 是整个 HDFS 集群的唯一标识，如果 DataNode namespace ID
 
 
 ## 参考
-[1] Hadoop Documentation. [HDFS Architecture](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html).
-[2] Robert Chansler, Hairong Kuang, Sanjay Radia, Konstantin Shvachko, and Suresh Srinivas. [The Hadoop Distributed File System](http://www.aosabook.org/en/hdfs.html)
+[1] Hadoop Documentation. [HDFS Architecture](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html).  
+[2] Robert Chansler, Hairong Kuang, Sanjay Radia, Konstantin Shvachko, and Suresh Srinivas. [The Hadoop Distributed File System](http://www.aosabook.org/en/hdfs.html)  
 [3] Tom White. [Hadoop: The Definitive Guide](http://book.douban.com/subject/10464777/). O'Reilly Media(2012-05), pp 94-96
