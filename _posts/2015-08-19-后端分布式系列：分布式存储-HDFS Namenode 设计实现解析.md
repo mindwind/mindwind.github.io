@@ -33,7 +33,7 @@ NameNode 使用一个事务日志文件 EditLog 来持久化记录针对文件�
 
 
 ## 数据分布策略
-除了文件系统元数据管理外，NameNode 另一个重要作用是对写入的文件块选择合适 DataNode 来存放，称为 block placement policy.
+除了文件系统元数据管理外，NameNode 另一个重要作用是对写入的文件块选择合适 DataNode 来存放，称为 block placement policy。
 在通常情况下，replication factor（副本数）默认为 3， HDFS 的数据分布策略是将两份副本放在本地机架的两个不同 DataNode 上，
 最后一个副本放在另外一个机架的一个 DataNode 上。
 
