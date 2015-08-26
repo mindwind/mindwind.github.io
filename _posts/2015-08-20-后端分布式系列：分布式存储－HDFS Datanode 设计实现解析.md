@@ -49,7 +49,7 @@ HDFS 定义了一种 multi-reader, single-writer 的文件访问语义。
 这一组 DataNodes 被组成一条流水线来写入，有效提升写入性能降低写入延迟。
 Client 将文件组织成一个个 packet 发送给流水线上第一个 DataNode，第一个 DataNode 存储下该 packet 后再转发给第二个 DataNode，依此类推。
 然后 DataNodes 再按流水线反方向发回确认 packet 给 Client。
-当所有文件 block 写入完成后，DataNodes 会向 NameNode 报告文件的 block 接收完毕，NameNode 相应去改变文件元数据的状态。
+当一个文件 block 写入完成后，DataNodes 会向 NameNode 报告文件的 block 接收完毕，NameNode 相应去改变文件元数据的状态。
 
 写文件的主体流程如上所述，如果过程中一切正常那么多么简单美好。
 但实际在分布式环境下，写文件过程涉及 Client、NameNode 和一组 DataNodes，这其中任何一个环节都有可能产生异常。
