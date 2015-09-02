@@ -22,9 +22,9 @@ image    : /assets/images/my_photo.jpg
 
 ## <i class="fa fa-weibo"></i>
 在微博主要关注一些业内人士、也用作同行交流使用，欢迎联系:)  
-<a href="http://weibo.com/u/2050652402?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/2050652402/f583b339/1.png"/></a>
+<a href="http://weibo.com/u/2050652402?s=6uyXnP"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/2050652402/f583b339/1.png"/></a>
 
 
 ## <i class="fa fa-wechat"></i>
-最近开了个公众账号，主要分享自己收藏的一些好文，欢迎收听，让时间更有价值！
+最近开了个公众账号 [瞬息之间]，同步分享一些原创文章，更方便订阅，欢迎收听。
 ![](/assets/images/qrcode_wechat.jpg)
