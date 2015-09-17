@@ -8,6 +8,11 @@ image    : /assets/images/collect.jpg
 
 ## 2015
 -------------------------------------------------------------------------------
+
+  - 2015-09-05 [产品经理的段位——说说腾讯的产品职级](http://mp.weixin.qq.com/s?__biz=MjM5MjA4MjU4MQ==&mid=210851763&idx=1&sn=a830cf763d5e84d323f11c462878eed7&scene=0)
+  - 2015-08-23 [一个人的精神结构和他的精神资源](http://mp.weixin.qq.com/s?__biz=MjM5MjA4MjU4MQ==&mid=210509623&idx=1&sn=bd53b0a0e730702c1e2a1e370b69326d&scene=0)
+  - 2015-08-22 [腾讯的职级系统——看清自己的职场宿命](http://mp.weixin.qq.com/s?__biz=MjM5MjA4MjU4MQ==&mid=200790551&idx=1&sn=17cb243a839d12f19a997be4d2572537&scene=21)
+  - 2015-08-21 [在腾讯的第一堂产品课](http://mp.weixin.qq.com/s?__biz=MjM5MjA4MjU4MQ==&mid=201017426&idx=1&sn=f34e020e5438c3618e1956cbbf2f100f&scene=21)
   - 2015-07-10 [借江山一用，转回身百年——在时代窗口与经济周期的轮回里](http://mp.weixin.qq.com/s?__biz=MjM5MjA4MjU4MQ==&mid=208766630&idx=1&sn=5f5b70f64e73fa2cb5d4cc83fffe05b8&scene=2#rd)
   - 2015-07-09 [陈凯歌和李安之间隔着什么？](http://mp.weixin.qq.com/s?__biz=MjM5OTAwNTQ0MA==&mid=208205965&idx=1&sn=748a5ecfcfadee9d1f60b2a68c3c9874#rd)
   - 2015-06-22 [25岁的你，该如何实现财富自由](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=213501675&idx=1&sn=144872466ed15e59f4a7ef2c45768e38#rd)
