@@ -71,24 +71,24 @@ Github 托管地址：[https://github.com/mindwind](https://github.com/mindwind)
 
 
 ### 技术文章
-  - 2015-02-09 [软件开发的核心]({% post_url 2015-02-09-软件开发的核心 %})
-  - 2014-09-22 [深入浅出RPC——深入篇]({% post_url 2014-09-22-深入浅出RPC——深入篇 %})
-  - 2014-09-15 [深入浅出RPC——浅出篇]({% post_url 2014-09-15-深入浅出RPC——浅出篇 %})
-  - 2014-04-26 [面向服务与微服务架构]({% post_url 2014-04-26-面向服务与微服务架构 %})
-  - 2013-09-08 [（译）认清性能问题]({% post_url 2013-09-08-（译）认清性能问题 %})
-  - 2013-03-28 [netty与mina性能对比测评分析]({% post_url 2013-02-28-netty与mina性能对比测评分析 %})
+  - 2015-02-09 [软件开发的核心]({% http://mindwind.me/blog/2015/02/09/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%9A%84%E6%A0%B8%E5%BF%83.html %})
+  - 2014-09-22 [深入浅出RPC——深入篇]({% http://mindwind.me/blog/2014/09/22/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BARPC%E2%80%94%E2%80%94%E6%B7%B1%E5%85%A5%E7%AF%87.html %})
+  - 2014-09-15 [深入浅出RPC——浅出篇]({% http://mindwind.me/blog/2014/09/15/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BARPC%E2%80%94%E2%80%94%E6%B5%85%E5%87%BA%E7%AF%87.html %})
+  - 2014-04-26 [面向服务与微服务架构]({% post_url http://mindwind.me/blog/2014/04/26/%E9%9D%A2%E5%90%91%E6%9C%8D%E5%8A%A1%E4%B8%8E%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84.html %})
+  - 2013-09-08 [（译）认清性能问题]({% http://mindwind.me/blog/2013/09/08/%EF%BC%88%E8%AF%91%EF%BC%89%E8%AE%A4%E6%B8%85%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98.html %})
+  - 2013-03-28 [netty与mina性能对比测评分析]({% http://mindwind.me/blog/2013/02/28/netty%E4%B8%8Emina%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94%E6%B5%8B%E8%AF%84%E5%88%86%E6%9E%90.html %})
 
 更多技术文章，请查看技术博客归档 [http://mindwind.me/archive/](http://mindwind.me/archive/)
 
 
 ### 演讲和讲义
-  - 2015-09-18 [京东咚咚平台化架构](/slide/京东咚咚平台化架构.pdf)
+  - 2015-09-18 [京东咚咚平台化架构](http://mindwind.me/slide/%E4%BA%AC%E4%B8%9C%E5%92%9A%E5%92%9A%E5%B9%B3%E5%8F%B0%E5%8C%96%E6%9E%B6%E6%9E%84.pdf)
     `京东咚咚第四代平台化架构实践总结`
-  - 2015-05-25 [微服务架构实践](/slide/微服务架构实践.pdf)
+  - 2015-05-25 [微服务架构实践](http://mindwind.me/slide/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%AE%9E%E8%B7%B5.pdf)
     `采用微服务架构理念升级 IM 第四代架构实践总结`
-  - 2014-12-19 [深入咚咚服务端架构](/slide/深入咚咚服务端架构.pdf)
+  - 2014-12-19 [深入咚咚服务端架构](http://mindwind.me/slide/%E6%B7%B1%E5%85%A5%E5%92%9A%E5%92%9A%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%9E%B6%E6%9E%84.pdf)
     `公司内部 Code Hack Day 上对咚咚后端架构的一些思考和分享`
-  - 2011-12-20 [服务化之路 - 服务化框架dubbo实践](/slide/服务化之路 - 服务化框架dubbo实践.pdf)
+  - 2011-12-20 [服务化之路 - 服务化框架dubbo实践](http://mindwind.me/slide/%E6%9C%8D%E5%8A%A1%E5%8C%96%E4%B9%8B%E8%B7%AF%20-%20%E6%9C%8D%E5%8A%A1%E5%8C%96%E6%A1%86%E6%9E%B6dubbo%E5%AE%9E%E8%B7%B5.pdf)
     `公司架构升级转型服务化后做的一个总结`
 
 更多演讲内容，查看 [http://mindwind.me/slide/](http://mindwind.me/slide/)
