@@ -71,12 +71,12 @@ Github 托管地址：[https://github.com/mindwind](https://github.com/mindwind)
 
 
 ### 技术文章
-  - 2015-02-09 [软件开发的核心]({% http://mindwind.me/blog/2015/02/09/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%9A%84%E6%A0%B8%E5%BF%83.html %})
-  - 2014-09-22 [深入浅出RPC——深入篇]({% http://mindwind.me/blog/2014/09/22/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BARPC%E2%80%94%E2%80%94%E6%B7%B1%E5%85%A5%E7%AF%87.html %})
+  - 2015-02-09 [软件开发的核心]( http://mindwind.me/blog/2015/02/09/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%9A%84%E6%A0%B8%E5%BF%83.html)
+  - 2014-09-22 [深入浅出RPC——深入篇]( http://mindwind.me/blog/2014/09/22/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BARPC%E2%80%94%E2%80%94%E6%B7%B1%E5%85%A5%E7%AF%87.html)
   - 2014-09-15 [深入浅出RPC——浅出篇]({% http://mindwind.me/blog/2014/09/15/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BARPC%E2%80%94%E2%80%94%E6%B5%85%E5%87%BA%E7%AF%87.html %})
-  - 2014-04-26 [面向服务与微服务架构]({% post_url http://mindwind.me/blog/2014/04/26/%E9%9D%A2%E5%90%91%E6%9C%8D%E5%8A%A1%E4%B8%8E%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84.html %})
-  - 2013-09-08 [（译）认清性能问题]({% http://mindwind.me/blog/2013/09/08/%EF%BC%88%E8%AF%91%EF%BC%89%E8%AE%A4%E6%B8%85%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98.html %})
-  - 2013-03-28 [netty与mina性能对比测评分析]({% http://mindwind.me/blog/2013/02/28/netty%E4%B8%8Emina%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94%E6%B5%8B%E8%AF%84%E5%88%86%E6%9E%90.html %})
+  - 2014-04-26 [面向服务与微服务架构]( http://mindwind.me/blog/2014/04/26/%E9%9D%A2%E5%90%91%E6%9C%8D%E5%8A%A1%E4%B8%8E%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84.html)
+  - 2013-09-08 [（译）认清性能问题]( http://mindwind.me/blog/2013/09/08/%EF%BC%88%E8%AF%91%EF%BC%89%E8%AE%A4%E6%B8%85%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98.html)
+  - 2013-03-28 [netty与mina性能对比测评分析]( http://mindwind.me/blog/2013/02/28/netty%E4%B8%8Emina%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94%E6%B5%8B%E8%AF%84%E5%88%86%E6%9E%90.html)
 
 更多技术文章，请查看技术博客归档 [http://mindwind.me/archive/](http://mindwind.me/archive/)
 
