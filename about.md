@@ -26,5 +26,5 @@ image    : /assets/images/my_photo.jpg
 
 
 ## <i class="fa fa-wechat"></i>
-最近开了个微信公众号 [瞬息之间]，同步分享一些原创文章，更方便订阅，欢迎收听。
+最近开了个微信公众号 「瞬息之间」，同步分享一些原创文章，更方便订阅，欢迎收听。
 ![](/assets/images/qrcode_wechat.jpg)
