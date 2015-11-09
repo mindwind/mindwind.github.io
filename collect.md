@@ -9,6 +9,9 @@ image    : /assets/images/collect.jpg
 ## 2015
 -------------------------------------------------------------------------------
 
+  - 2015-11-04 [简历的重点是抓人](http://mp.weixin.qq.com/s?__biz=MzA3MDMwOTcwMg==&mid=400281808&idx=1&sn=8df65be25bbd0a71f05763f90407c28b&scene=24&srcid=1109bRTu2nA6selXq3NWgoLd#wechat_redirect)
+  - 2015-10-29 [小时候的锤子](http://mp.weixin.qq.com/s?__biz=MzA4NDEzNTMyMA==&mid=400137322&idx=1&sn=5eab529cd58a588e8e7da37255d0a60e&scene=0#wechat_redirect)
+  - 2015-10-18 [如何从技术牛人升阶为管理牛人](http://mp.weixin.qq.com/s?__biz=MjAzNzMzNTkyMQ==&mid=400063279&idx=1&sn=8626ef7f5a6904ea30cf922b47e161c5&scene=0#wechat_redirect)
   - 2015-09-05 [产品经理的段位——说说腾讯的产品职级](http://mp.weixin.qq.com/s?__biz=MjM5MjA4MjU4MQ==&mid=210851763&idx=1&sn=a830cf763d5e84d323f11c462878eed7&scene=0)
   - 2015-08-23 [一个人的精神结构和他的精神资源](http://mp.weixin.qq.com/s?__biz=MjM5MjA4MjU4MQ==&mid=210509623&idx=1&sn=bd53b0a0e730702c1e2a1e370b69326d&scene=0)
   - 2015-08-22 [腾讯的职级系统——看清自己的职场宿命](http://mp.weixin.qq.com/s?__biz=MjM5MjA4MjU4MQ==&mid=200790551&idx=1&sn=17cb243a839d12f19a997be4d2572537&scene=21)
