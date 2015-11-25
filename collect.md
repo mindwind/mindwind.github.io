@@ -9,6 +9,7 @@ image    : /assets/images/collect.jpg
 ## 2015
 -------------------------------------------------------------------------------
 
+  - 2015-11-25 [关于社交这回事](http://mp.weixin.qq.com/s?__biz=MzA3MDMwOTcwMg==&mid=400481533&idx=1&sn=1952f96ed32f4a1bf911195f7c94c2dd&scene=0#wechat_redirect)
   - 2015-11-04 [简历的重点是抓人](http://mp.weixin.qq.com/s?__biz=MzA3MDMwOTcwMg==&mid=400281808&idx=1&sn=8df65be25bbd0a71f05763f90407c28b&scene=24&srcid=1109bRTu2nA6selXq3NWgoLd#wechat_redirect)
   - 2015-10-29 [小时候的锤子](http://mp.weixin.qq.com/s?__biz=MzA4NDEzNTMyMA==&mid=400137322&idx=1&sn=5eab529cd58a588e8e7da37255d0a60e&scene=0#wechat_redirect)
   - 2015-10-18 [如何从技术牛人升阶为管理牛人](http://mp.weixin.qq.com/s?__biz=MjAzNzMzNTkyMQ==&mid=400063279&idx=1&sn=8626ef7f5a6904ea30cf922b47e161c5&scene=0#wechat_redirect)
