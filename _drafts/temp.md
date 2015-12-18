@@ -1,22 +1,16 @@
 ---
 layout    : post
-title     : 后端分布式系列：分布式存储－Redis 的性能幻想与残酷现实
-date      : 2015-12-25
+title     : 阅读的姿势
+date      : 2015-09-24
 author    : mindwind
 categories: blog
-tags      : Redis 性能
-image     : /assets/article_images/2015-12-25.jpg
+tags      : 技能
+image     : /assets/article_images/2015-09-24.jpg
 elapse    :
 ---
 
-
-
-
-
 ## 参考
 [1] antirez. [Redis Documentation](http://redis.io/documentation)  
-When an ethernet network is used to access Redis, aggregating commands using pipelining is especially efficient when the size of the data is kept under the ethernet packet size (about 1500 bytes). Actually, processing 10 bytes, 100 bytes, or 1000 bytes queries almost result in the same throughput. See the graph below.
-
 As a rule of thumb, an instance with 30000 connections can only process half the throughput achievable with 100 connections.
 
 
@@ -62,4 +56,16 @@ I recommend memcached because it is designed for caching: it performs no disk I/
 Master写内存快照，save命令调度rdbSave函数，会阻塞主线程的工作，当快照比较大时对性能影响是非常大的，会间断性暂停服务，所以Master最好不要写内存快照。
 虽然Redis宣称主从复制无阻塞，但由于磁盘io的限制，如果Master快照文件比较大，那么dump会耗费比较长的时间，这个过程中Master可能无法响应请求，也就是说服务会中断。
 
-![](/assets/images/qrcode_tail.jpg)
+
+
+关于效率的事情提个最近的事情，双十一在京东第三方卖家买了件衣服，收到货已经一周后了。
+试了下偏小（为什么两件衣服同一尺码，就是不一样大）就申请换大一号，短信通知让自己发快递回去，特别提醒别发 EMS 和顺丰。
+然后用微信圆通服务号下一个寄件单，因为收获商家留的固定电话不符合手机联系方式格式检测导致下不了单，只好用电脑去官网下单。
+终于下好单后，等了三小时刷新了下页面发现订单状态依然是未接单状态，果断取消订单。
+然后用微信顺丰服务号下了个单，订单立刻分配到快递小哥手上通知我正立刻赶来取件，20分钟后快递小哥把衣服取走。
+回头想想让我别发顺丰就真的不能发么，不就是顺丰贵了十块钱么，何必为这几块钱折腾自己呢？
+
+
+
+“在某个时候，一切都会变得越来越糟糕，当一切都越来越糟时，你只能坚强的面对，这就是我如何解决这个问题的。你要么屈服，要么反抗，就是这样。你只要开始，进行计算，解决一个问题，解决下一个问题，解决下下个问题，等解决了足够的问题，你就能回家了。”
+																					———Mark.Watney《火星救援》
