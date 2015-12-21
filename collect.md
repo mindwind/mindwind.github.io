@@ -8,6 +8,10 @@ image    : /assets/images/collect.jpg
 
 ## 2015
 -------------------------------------------------------------------------------
+  - 2015-12-21 [亚马逊为何聘用一名修车工管理云帝国？](http://tech.qq.com/a/20130221/000114.htm)
+  - 2015-12-21 [700天持续行动和写作带给我的启示](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=401253272&idx=2&sn=d6f260c988e5ff0649fb82bb740f4bab&scene=0#wechat_redirect)
+  - 2015-12-21 [为什么我放弃了争论](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=401232868&idx=1&sn=409a658e2642422cc2151fb02997add4&scene=0#wechat_redirect)
+  - 2015-12-21 [大龄程序员怎样渡过中年危机？](http://mp.weixin.qq.com/s?__biz=MzA4NzA2NjcyMg==&mid=401318344&idx=1&sn=16ec5029c9837de19716fd9834c6693a&scene=0#wechat_redirect)
   - 2015-12-18 [深入浅出说闪存：拨开 SSD 的神秘面纱](http://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=400397199&idx=1&sn=18ab1666d1b433b21c4f43506651d812&scene=2&srcid=1116FRz3QBvx1aLGtAMOLl5L)
   - 2015-12-17 [复利：我们的人生希望](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=401199907&idx=1&sn=0d5395ca0f0737afefc72a48c7ecd278&scene=2&srcid=12183txqtZ8WyA0sGoJna9IR&from=timeline&isappinstalled=0)
   - 2015-12-16 [微信朋友圈技术之道](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=401735823&idx=1&sn=7a4df58c22d9d3145e0692dd580f6a3d&scene=0)
