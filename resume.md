@@ -20,8 +20,8 @@ image    : /assets/images/resume_photo.jpg
 硕士/中山大学软件工程专业  
 工作年限/10年  
 微博: @云下山巅  
-微信: mindwind   
-博客: [http://mindwind.me](http://mindwind.me)
+微信: mindwind
+博客: [http://mindwind.me](http://mindwind.me)  
 GitHub: [https://github.com/mindwind](https://github.com/mindwind)
 
 
