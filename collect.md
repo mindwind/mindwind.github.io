@@ -8,6 +8,7 @@ image    : /assets/images/collect.jpg
 
 ## 2015
 -------------------------------------------------------------------------------
+  - 2015-12-29 [手机QQ公众号亿级消息实时群发架构](http://www.php230.com/weixin1450768436.html)
   - 2015-12-21 [亚马逊为何聘用一名修车工管理云帝国？](http://tech.qq.com/a/20130221/000114.htm)
   - 2015-12-21 [700天持续行动和写作带给我的启示](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=401253272&idx=2&sn=d6f260c988e5ff0649fb82bb740f4bab&scene=0#wechat_redirect)
   - 2015-12-21 [为什么我放弃了争论](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=401232868&idx=1&sn=409a658e2642422cc2151fb02997add4&scene=0#wechat_redirect)
