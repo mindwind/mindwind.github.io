@@ -6,11 +6,21 @@ image    : /assets/images/book.jpg
 ---
 
 
+## 2016
+-------------------------------------------------------------------------------
+
+
+
 ## 2015
 -------------------------------------------------------------------------------
-  - 2015-05-08 [Building Microservices](http://book.douban.com/subject/25881698/)
+  - 2015-10-18 [增长黑客 : 创业公司的用户与收入增长秘籍](http://book.douban.com/subject/26541801/)
+  - 2015-08-04 [不敢止步 : 一个软件工匠的12年](http://book.douban.com/subject/26135794/)
+  - 2015-06-25 [股市进阶之道 : 一个散户的自我修养](http://book.douban.com/subject/25829645/)
+  - 2015-05-08 [Building Microservices : Designing Fine-Grained Systems](http://book.douban.com/subject/25881698/)
   - 2015-05-06 [万万没想到](http://book.douban.com/subject/25986341/)
   - 2015-03-20 [编码 : 隐匿在计算机软硬件背后的语言](http://book.douban.com/subject/4822685/)
+  - 2015-02-19 [聪明的投资者](http://book.douban.com/subject/5243775/)
+  - 2015-01-01 [怎样选择成长股](http://book.douban.com/subject/1007459/)
 
 
 ## 2014
@@ -61,5 +71,5 @@ image    : /assets/images/book.jpg
   - 2008-03-25 [UNIX 编程艺术](http://book.douban.com/subject/1467587/)
   - 2008-01-22 [Expert One-on-One J2EE Development without EJB](http://book.douban.com/subject/1426848/)
   - 2007-11-14 [Effective Java](http://book.douban.com/subject/1246129/)
-  - 2007-09-30 [爪哇夜未眠——Java 程序员的心声](http://book.douban.com/subject/1168545/)
+  - 2007-09-30 [爪哇夜未眠 : Java 程序员的心声](http://book.douban.com/subject/1168545/)
   - 2004-10-30 [Thinking in Java](http://book.douban.com/subject/1229955/)
