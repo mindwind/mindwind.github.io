@@ -8,6 +8,8 @@ image    : /assets/images/collect.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-01-18 [赚钱的事与值钱的事](http://mp.weixin.qq.com/s?__biz=MjM5MjA4MjU4MQ==&mid=405602254&idx=1&sn=931de0a6fdb094aa416b1b27aaa87e05&scene=0#wechat_redirect)
+  - 2016-01-14 [从0到1：微信后台系统的演进之路](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=402340325&idx=1&sn=5b7bf6025b1a83a0e529e630fc95ae28&scene=2&srcid=0115qK1uxBheullVx9Wolnt8&from=timeline&isappinstalled=0#wechat_redirect)
   - 2016-01-12 [我们到底还能写多久？](http://mp.weixin.qq.com/s?__biz=MzA4NDEzNTMyMA==&mid=401655133&idx=1&sn=ce95f714ec62835ff6904f695c1c52c2&scene=0)
 
 
