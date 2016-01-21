@@ -8,7 +8,7 @@ image    : /assets/images/book.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
-
+  - 2015-01-18 [邓小平时代](http://book.douban.com/subject/20424526/)
 
 
 ## 2015
@@ -53,7 +53,7 @@ image    : /assets/images/book.jpg
   - 2012-10-04 [大秦帝国](http://book.douban.com/subject/3079029/)
   - 2012-09-28 [重来](http://book.douban.com/subject/5320866/)
   - 2012-08-18 [暗时间](http://book.douban.com/subject/6709809/)
-  - 2012-07-21 [鸟哥的Linux私房菜.基础学习篇](http://book.douban.com/subject/4889838/)
+  - 2012-07-21 [鸟哥的 Linux 私房菜.基础学习篇](http://book.douban.com/subject/4889838/)
   - 2012-07-16 [认知与设计](http://book.douban.com/subject/6792322/)
   - 2012-07-06 [白帽子讲Web安全](http://book.douban.com/subject/10546925/)
   - 2012-06-24 [Linux/Unix 设计思想](http://book.douban.com/subject/7564417/)
