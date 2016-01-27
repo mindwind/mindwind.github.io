@@ -8,6 +8,7 @@ image    : /assets/images/collect.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-01-27 [鏖战双十一：阿里直播平台面临的技术挑战](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=402443318&idx=1&sn=8fc8896b86f2f385c428e7ab558d16e9&scene=0#wechat_redirect)
   - 2016-01-26 [架构师在精益企业中的角色是什么样的](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=402424457&idx=1&sn=ee02b11223d58c236eeff5a6a578b75f&scene=0#wechat_redirect)
   - 2016-01-18 [赚钱的事与值钱的事](http://mp.weixin.qq.com/s?__biz=MjM5MjA4MjU4MQ==&mid=405602254&idx=1&sn=931de0a6fdb094aa416b1b27aaa87e05&scene=0#wechat_redirect)
   - 2016-01-14 [从0到1：微信后台系统的演进之路](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=402340325&idx=1&sn=5b7bf6025b1a83a0e529e630fc95ae28&scene=2&srcid=0115qK1uxBheullVx9Wolnt8&from=timeline&isappinstalled=0#wechat_redirect)
