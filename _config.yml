@@ -1,5 +1,5 @@
 # Build settings
-highlighter: pygments
+highlighter: rouge
 
 # Site settings
 title: "mindwind"
