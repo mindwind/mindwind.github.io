@@ -20,7 +20,7 @@ image    : /assets/images/resume_photo.jpg
 硕士/中山大学软件工程专业  
 工作年限/10年  
 微博: @云下山巅  
-微信: mindwind
+微信: mindwind  
 博客: [http://mindwind.me](http://mindwind.me)  
 GitHub: [https://github.com/mindwind](https://github.com/mindwind)
 
@@ -72,7 +72,7 @@ Github 托管地址：[https://github.com/mindwind](https://github.com/mindwind)
 
 
 ### 技术文章
-  - 2015-02-09 [软件开发的核心]( http://mindwind.me/blog/2015/02/09/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%9A%84%E6%A0%B8%E5%BF%83.html)
+  - 2015-12-03 [京东咚咚架构演进]({% post_url 2015-12-03-京东咚咚架构演进 %})
   - 2014-09-22 [深入浅出RPC——深入篇]( http://mindwind.me/blog/2014/09/22/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BARPC%E2%80%94%E2%80%94%E6%B7%B1%E5%85%A5%E7%AF%87.html)
   - 2014-09-15 [深入浅出RPC——浅出篇]( http://mindwind.me/blog/2014/09/15/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BARPC%E2%80%94%E2%80%94%E6%B5%85%E5%87%BA%E7%AF%87.html)
   - 2014-04-26 [面向服务与微服务架构]( http://mindwind.me/blog/2014/04/26/%E9%9D%A2%E5%90%91%E6%9C%8D%E5%8A%A1%E4%B8%8E%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84.html)
@@ -97,10 +97,10 @@ Github 托管地址：[https://github.com/mindwind](https://github.com/mindwind)
 
 ## 技能清单
 --------------------------------------------------------------------------------
-  - Java 后端: spring/struts/springmvc/hibernate/ibatis/servlet/mina/netty/dubbo/maven/tomcat/cxf/hessian
-  - Web  前端: bootstrap/extjs/angularjs
-  - 数据库和缓存: mysql/oracle/mongodb/hbase/redis/memcache
-  - 版本管理:  svn/git
+  - Java 后端: Spring/Struts/SpringMVC/Hibernate/iBatis/Servlet/Mina/Netty/Dubbo/Maven/Tomcat/CXF/Hessian
+  - Web  前端: Bootstrap/extJS/AngularJS
+  - 数据库和缓存: MySQL/Oracle/MongoDB/HBase/Redis/Memcache
+  - 版本管理:  SVN/Git
   - 编程语言:  java/javascript/shell
 
 
