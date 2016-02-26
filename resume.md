@@ -98,7 +98,7 @@ Github 托管地址：[https://github.com/mindwind](https://github.com/mindwind)
 ## 技能清单
 --------------------------------------------------------------------------------
   - Java 后端: Spring/Struts/SpringMVC/Hibernate/iBatis/Servlet/Mina/Netty/Dubbo/Maven/Tomcat/CXF/Hessian
-  - Web  前端: Bootstrap/extJS/AngularJS
+  - Web  前端: Bootstrap/ExtJS/AngularJS
   - 数据库和缓存: MySQL/Oracle/MongoDB/HBase/Redis/Memcache
   - 版本管理:  SVN/Git
   - 编程语言:  java/javascript/shell
