@@ -8,6 +8,9 @@ image    : /assets/images/collect.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-03-09 [2亿QQ用户大调度背后的架构设计和高效运营（下）](http://dataunion.org/21595.html)
+  - 2016-03-09 [2亿QQ用户大调度背后的架构设计和高效运营（上）](http://dataunion.org/21591.html)
+  - 2016-03-09 [一秒钟法则：来自腾讯无线研发的经验分享](http://djt.qq.com/article/view/1130?ADTAG=email.InnerAD.weekly.20140415)
   - 2016-03-07 [移动网络下的性能优化之网络篇](http://mp.weixin.qq.com/s?__biz=MjM5MzA0ODkyMA==&mid=405933379&idx=1&sn=56f20f2cb7980832aeebdd7d592ec3a0&scene=0)
   - 2016-03-04 [越早开始越好的事情没几个：理财排在第一位](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=210860540&idx=1&sn=7dc4896242df1adb557ab94744e81edd&scene=2&srcid=1006ySpkVEkarsf8DiobobIL&from=timeline&isappinstalled=0)
   - 2016-02-20 [在 8:15 起床](http://mp.weixin.qq.com/s?__biz=MjM5MjAzODU2MA==&mid=401998165&idx=1&sn=c1dfbaba5b0ff28a71e7993e623aef4e&scene=2&srcid=0220o9rC4l4C5V4o9KAvW23h&from=timeline&isappinstalled=0)
