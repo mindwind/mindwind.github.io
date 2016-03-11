@@ -8,6 +8,9 @@ image    : /assets/images/collect.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-03-11 [移动互联网CDN运用思路](http://mp.weixin.qq.com/s?__biz=MzI4MjA4ODU0Ng==&mid=402603447&idx=1&sn=a66afa8393ffe5b8272ec0733f3ad1fa&scene=0)
+  - 2016-03-11 [程序员晋升攻略](http://mp.weixin.qq.com/s?__biz=MzA5MTE0MDUxMA==&mid=404382284&idx=1&sn=87f0cdcb5c41bb556304b0bfb038f4ee&scene=4)
+  - 2016-03-11 [首席技术官：CTO 是做什么的？](http://mp.weixin.qq.com/s?__biz=MzA4NTU2MTg3MQ==&mid=405800426&idx=1&sn=7d446c5db81aceb6f4f9a05afa5b75dc&scene=0)
   - 2016-03-09 [2亿QQ用户大调度背后的架构设计和高效运营（下）](http://dataunion.org/21595.html)
   - 2016-03-09 [2亿QQ用户大调度背后的架构设计和高效运营（上）](http://dataunion.org/21591.html)
   - 2016-03-09 [一秒钟法则：来自腾讯无线研发的经验分享](http://djt.qq.com/article/view/1130?ADTAG=email.InnerAD.weekly.20140415)
