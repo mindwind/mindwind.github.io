@@ -8,6 +8,8 @@ image    : /assets/images/collect.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-03-22 [从比特币说起，区块链到底是个啥？](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403164652&idx=1&sn=4ec9417c7a28ee584684367b8b2358da&scene=0)
+  - 2016-03-22 [思考质量决定人生成败](http://mp.weixin.qq.com/s?__biz=MzA3MjM2MzYzOQ==&mid=402911075&idx=1&sn=c9c522ca29ef940a0a34f9e45e3ccde4&scene=0)
   - 2016-03-11 [移动互联网CDN运用思路](http://mp.weixin.qq.com/s?__biz=MzI4MjA4ODU0Ng==&mid=402603447&idx=1&sn=a66afa8393ffe5b8272ec0733f3ad1fa&scene=0)
   - 2016-03-11 [程序员晋升攻略](http://mp.weixin.qq.com/s?__biz=MzA5MTE0MDUxMA==&mid=404382284&idx=1&sn=87f0cdcb5c41bb556304b0bfb038f4ee&scene=4)
   - 2016-03-11 [首席技术官：CTO 是做什么的？](http://mp.weixin.qq.com/s?__biz=MzA4NTU2MTg3MQ==&mid=405800426&idx=1&sn=7d446c5db81aceb6f4f9a05afa5b75dc&scene=0)
