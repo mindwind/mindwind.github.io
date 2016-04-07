@@ -8,6 +8,11 @@ image    : /assets/images/collect.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-04-07 [活到 111 岁是什么样的体验？](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=402987984&idx=1&sn=8e57b0c6e9d9b94878d8ed08f453c560&scene=0)
+  - 2016-04-07 [为什么兼职其实是个大坑？](http://mp.weixin.qq.com/s?__biz=MzAwMDgyMTA3Mg==&mid=402001188&idx=1&sn=55bed567c5a2a844edbecb8bcd2dab46&scene=4)
+  - 2016-04-07 [这是个只要不问就一定吃一辈子亏的问题](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=402409740&idx=1&sn=2e6faafcb6a8e97bd7fecf9d00db82cb)
+  - 2016-04-07 [自学的另外一个根基](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=401590797&idx=2&sn=d879902d780341b6faf3de0fbe1ed91c&scene=21)
+  - 2016-04-07 [如何判断自己的文章好坏？](http://mp.weixin.qq.com/s?__biz=MzAwMDgyMTA3Mg==&mid=402554543&idx=1&sn=b8e323e2f3cb2d4bf7e18eebaba5962f&scene=0)
   - 2016-03-22 [从比特币说起，区块链到底是个啥？](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403164652&idx=1&sn=4ec9417c7a28ee584684367b8b2358da&scene=0)
   - 2016-03-22 [思考质量决定人生成败](http://mp.weixin.qq.com/s?__biz=MzA3MjM2MzYzOQ==&mid=402911075&idx=1&sn=c9c522ca29ef940a0a34f9e45e3ccde4&scene=0)
   - 2016-03-11 [移动互联网CDN运用思路](http://mp.weixin.qq.com/s?__biz=MzI4MjA4ODU0Ng==&mid=402603447&idx=1&sn=a66afa8393ffe5b8272ec0733f3ad1fa&scene=0)
