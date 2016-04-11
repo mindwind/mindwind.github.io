@@ -8,8 +8,11 @@ image    : /assets/images/my_photo.jpg
 ---
 
 
-本人程序员一枚，[mindwind](http://mindwind.me) 是我常用的网名。  
-目前就职于 [京东](http://jd.com) 成都研究院，负责京东咚咚后台架构工作。
+本人程序员一枚，[mindwind](http://mindwind.me) 是我常用的网名。
+
+80后程序员，从业十年。前五年漂泊广深从事金融、电信等企业级应用开发。
+近五年就职京东成都研究院从事电商互联网应用开发，目前负责京东咚咚后台架构工作。
+关注互联网后端分布式相关技术领域，是一个除了写代码也爱写写文字的程序员。
 
 
 ## <i class="fa fa-github"></i>
@@ -26,5 +29,5 @@ image    : /assets/images/my_photo.jpg
 
 
 ## <i class="fa fa-wechat"></i>
-最近开了个微信公众号 「瞬息之间」，同步分享一些原创文章，更方便订阅，欢迎收听。
+个人微信公众号 「瞬息之间」，同步分享一些原创文章，更方便订阅，欢迎收听。
 ![](/assets/images/qrcode_wechat.jpg)
