@@ -8,6 +8,8 @@ image    : /assets/images/collect.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-04-15 [战略是什么](http://mp.weixin.qq.com/s?__biz=MzA3ODQzNzU4OQ==&mid=402802580&idx=1&sn=3cd73a5a32184eeeb4066a6cc3214f3b&scene=0)
+  - 2016-04-15 [在首席架构师眼里，架构的本质是](http://mp.weixin.qq.com/s?__biz=MzA4NTU2MTg3MQ==&mid=407250191&idx=1&sn=abbda20219694844554d8318fba23693&scene=0)
   - 2016-04-07 [活到 111 岁是什么样的体验？](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=402987984&idx=1&sn=8e57b0c6e9d9b94878d8ed08f453c560&scene=0)
   - 2016-04-07 [为什么兼职其实是个大坑？](http://mp.weixin.qq.com/s?__biz=MzAwMDgyMTA3Mg==&mid=402001188&idx=1&sn=55bed567c5a2a844edbecb8bcd2dab46&scene=4)
   - 2016-04-07 [这是个只要不问就一定吃一辈子亏的问题](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=402409740&idx=1&sn=2e6faafcb6a8e97bd7fecf9d00db82cb)
