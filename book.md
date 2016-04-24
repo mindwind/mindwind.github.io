@@ -13,12 +13,12 @@ image    : /assets/images/book.jpg
 
 ## 2015
 -------------------------------------------------------------------------------
-  - 2015-10-18 [增长黑客 : 创业公司的用户与收入增长秘籍](http://book.douban.com/subject/26541801/)
-  - 2015-08-04 [不敢止步 : 一个软件工匠的12年](http://book.douban.com/subject/26135794/)
+  - 2015-10-18 [增长黑客：创业公司的用户与收入增长秘籍](http://book.douban.com/subject/26541801/)
+  - 2015-08-04 [不敢止步：一个软件工匠的12年](http://book.douban.com/subject/26135794/)
   - 2015-06-25 [股市进阶之道 : 一个散户的自我修养](http://book.douban.com/subject/25829645/)
-  - 2015-05-08 [Building Microservices : Designing Fine-Grained Systems](http://book.douban.com/subject/25881698/)
-  - 2015-05-06 [万万没想到](http://book.douban.com/subject/25986341/)
-  - 2015-03-20 [编码 : 隐匿在计算机软硬件背后的语言](http://book.douban.com/subject/4822685/)
+  - 2015-05-08 [Building Microservices: Designing Fine-Grained Systems](http://book.douban.com/subject/25881698/)
+  - 2015-05-06 [万万没想到：用理工科思维理解世界](http://book.douban.com/subject/25986341/)
+  - 2015-03-20 [编码：隐匿在计算机软硬件背后的语言](http://book.douban.com/subject/4822685/)
   - 2015-02-19 [聪明的投资者](http://book.douban.com/subject/5243775/)
   - 2015-01-01 [怎样选择成长股](http://book.douban.com/subject/1007459/)
 
@@ -49,17 +49,17 @@ image    : /assets/images/book.jpg
   - 2012-12-18 [乡关何处](http://book.douban.com/subject/10569855/)
   - 2012-12-06 [一九八四](http://book.douban.com/subject/1858576/)
   - 2012-11-16 [史蒂夫·乔布斯传](http://book.douban.com/subject/6798611/)
-  - 2012-10-21 [程序员修炼之道](http://book.douban.com/subject/1152111/)
+  - 2012-10-21 [程序员修炼之道: 从小工到专家](http://book.douban.com/subject/1152111/)
   - 2012-10-04 [大秦帝国](http://book.douban.com/subject/3079029/)
-  - 2012-09-28 [重来](http://book.douban.com/subject/5320866/)
+  - 2012-09-28 [重来:更为简单有效的商业思维](http://book.douban.com/subject/5320866/)
   - 2012-08-18 [暗时间](http://book.douban.com/subject/6709809/)
   - 2012-07-21 [鸟哥的 Linux 私房菜.基础学习篇](http://book.douban.com/subject/4889838/)
-  - 2012-07-16 [认知与设计](http://book.douban.com/subject/6792322/)
+  - 2012-07-16 [认知与设计:理解UI设计准则](http://book.douban.com/subject/6792322/)
   - 2012-07-06 [白帽子讲Web安全](http://book.douban.com/subject/10546925/)
   - 2012-06-24 [Linux/Unix 设计思想](http://book.douban.com/subject/7564417/)
   - 2012-04-28 [JAVA 并发编程实践](http://book.douban.com/subject/2148132/)
-  - 2012-04-06 [编程人生](http://book.douban.com/subject/5355285/)
-  - 2012-01-19 [黑客与画家](http://book.douban.com/subject/6021440/)
+  - 2012-04-06 [编程人生：15位软件先驱访谈录](http://book.douban.com/subject/5355285/)
+  - 2012-01-19 [黑客与画家：硅谷创业之父Paul Graham文集](http://book.douban.com/subject/6021440/)
 
 
 ## 2012 之前
@@ -71,5 +71,5 @@ image    : /assets/images/book.jpg
   - 2008-03-25 [UNIX 编程艺术](http://book.douban.com/subject/1467587/)
   - 2008-01-22 [Expert One-on-One J2EE Development without EJB](http://book.douban.com/subject/1426848/)
   - 2007-11-14 [Effective Java](http://book.douban.com/subject/1246129/)
-  - 2007-09-30 [爪哇夜未眠 : Java 程序员的心声](http://book.douban.com/subject/1168545/)
+  - 2007-09-30 [爪哇夜未眠：Java 程序员的心声](http://book.douban.com/subject/1168545/)
   - 2004-10-30 [Thinking in Java](http://book.douban.com/subject/1229955/)
