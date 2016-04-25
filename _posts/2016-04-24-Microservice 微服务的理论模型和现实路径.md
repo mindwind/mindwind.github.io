@@ -49,7 +49,7 @@ elapse    : 12h10
 ### 组件服务化
 传统实现组件的方式是通过库（library），库是和应用一起运行在进程中，库的局部变化意味着整个应用的重新部署。 通过服务来实现组件，意味着将应用拆散为一系列的服务运行在不同的进程中，那么单一服务的局部变化只需重新部署对应的服务进程。
 
-![](/assets/article_images/1.jpg)
+![](/assets/article_images/2016-04-24-1.png)
 
 ### 按业务能力组织服务
 按业务能力组织服务的意思是服务提供的能力和业务功能对应，比如：订单服务和数据访问服务，前者反应了真实的订单相关业务，后者是一种技术抽象服务不反应真实的业务。所以按微服务架构理念来划分服务时，是不应该存在数据访问服务这样一个服务的。
@@ -60,11 +60,11 @@ Melvin Conway 在 1967 年观察到一个现象并总结出了一条著名的康
 
 设计系统的组织，最终产生的设计等价于组织的沟通结构。传统开发方式中，我们将工程师按技能专长分层为前端层、中间层、数据层，前端对应的角色为 UI、页面构建师等，中间层对应的角色为后端业务开发工程师，数据层对应着 DBA 等角色。
 
-![](/assets/article_images/2.jpg)
+![](/assets/article_images/2016-04-24-2.png)
 
 事实上传统应用设计架构的分层结构正反应了不同角色的沟通结构。所以若要按微服务的方式来构建应用，也需要对应调整团队的组织架构。每个服务背后的小团队的组织是跨功能的，包含实现业务所需的全面的技能。
 
-![](/assets/article_images/3.jpg)
+![](/assets/article_images/2016-04-24-3.png)
 
 ### 服务即产品
 传统的应用开发都是基于项目模式的，开发团队根据一堆功能列表开发出一个软件应用并交付给客户后，该软件应用就进入维护模式，由另一个维护团队负责，开发团队的职责结束。 而微服务架构建议避免采用这种项目模式，更倾向于让开发团队负责整个产品的全部生命周期。Amazon 对此提出了一个观点：
@@ -76,7 +76,7 @@ Melvin Conway 在 1967 年观察到一个现象并总结出了一条著名的康
 ### 智能终端与哑管道
 微服务架构抛弃了 ESB 过度复杂的业务规则编排、消息路由等。 服务作为智能终端，所有的业务智能逻辑在服务内部处理，而服务间的通信尽可能的轻量化，不添加任何额外的业务规则。所以这里的智能终端是指服务本身，而哑管道是通信机制，可以是同步的 RPC，也可以是异步的 MQ，它们只作为消息通道，在传输过程中不会附加额外的业务智能。
 
-![](/assets/article_images/4.jpg)
+![](/assets/article_images/2016-04-24-4.png)
 
 ### 去中心化
 去中心化包含两层意思：
@@ -88,13 +88,13 @@ Melvin Conway 在 1967 年观察到一个现象并总结出了一条著名的康
 
 每个服务独享自身的数据存储设施（缓存，数据库等），不像传统应用共享一个缓存和数据库，这样有利于服务的独立性，隔离相关干扰。
 
-![](/assets/article_images/5.jpg)
+![](/assets/article_images/2016-04-24-5.png)
 
 
 ### 基础设施自动化
 无自动化不微服务，自动化包括测试和部署。单一进程的传统应用被拆分为一系列的多进程服务后，意味着开发、调试、测试、监控和部署的复杂度都会相应增大，必须要有合适的自动化基础设施来支持微服务架构模式，否则开发、运维成本将大大增加。
 
-![](/assets/article_images/6.jpg)
+![](/assets/article_images/2016-04-24-6.png)
 
 ### 容错设计
 著名的 Design For Failure 思想，微服务架构采用粗粒度的进程间通信，引入了额外的复杂性和需要处理的新问题，如网络延迟、消息格式、负载均衡和容错，忽略其中任何一点都属于对“分布式计算的误解”。
@@ -111,7 +111,7 @@ Melvin Conway 在 1967 年观察到一个现象并总结出了一条著名的康
 ### 前提
 微服务似乎是一个近年很热门的架构选择，但什么时候该选择微服务架构，这是有一定前提的。
 
-![](/assets/article_images/7.jpg)
+![](/assets/article_images/2016-04-24-7.png)
 
 上面的图来自 Martin Fowler 的文章(参考[7])，揭示了生产率和复杂度的一个关系。在复杂度较小时采用单体应用（Monolith）的生产率更高，复杂度到了一定规模时，单体应用的生产率开始急剧下降，这时对其进行微服务化的拆分才是合算的。
 
@@ -131,10 +131,10 @@ Melvin Conway 在 1967 年观察到一个现象并总结出了一条著名的康
 ### 维度
 实施微服务架构，可以从下面一些维度来做全面考量。
 
-#### 建模 
+#### 建模
 服务围绕业务能力建模，下图是我在《京东咚咚架构演进》（参考[10]）一文中写到的咚咚向微服务架构演进中对服务拆分后得到的一个服务矩阵图。从服务名称就可以很容易看出服务比较清晰的反应了业务能力。
 
-![](/assets/article_images/8.jpg)
+![](/assets/article_images/2016-04-24-8.png)
 
 
 #### 协作
@@ -142,7 +142,7 @@ Melvin Conway 在 1967 年观察到一个现象并总结出了一条著名的康
 
 按微服务的组织方式，不同人或小团队负责一个或一组微服务，服务之间可能存在相互调用关系，所以在服务之间也完全采用了像面向外部开放的契约化开发模式。
 
-![](/assets/article_images/9.jpg)
+![](/assets/article_images/2016-04-24-9.png)
 
 每一个服务都提供了一份契约文档，发布到公开的内部 wiki，方便服务干系人可自由获取查看。契约文档要求至少对服务的几个基本方面作出说明，如下：
 
@@ -155,36 +155,36 @@ Melvin Conway 在 1967 年观察到一个现象并总结出了一条著名的康
 
 采用微服务后一个业务功能的调用会涉及多个服务间的协同工作，由于服务间都是跨进城的调用通信，一个业务功能的完成涉及的服务调用链条可能较长，这就涉及到服务间需遵循一些规则来确保协作的可靠性和可用性。我们采用的原则是：长链条的内部服务之间的调用异步化。若一个调用链条中的个别服务变慢或阻塞可能导致整个链条产生雪崩效应，采用异步化来规避调用阻塞等待导致的雪崩情形。
 
-![](/assets/article_images/10.jpg)
+![](/assets/article_images/2016-04-24-10.png)
 
 上图展示了咚咚请求调用链的一个异步化过程，若终端的请求是需要同步等待响应结果的（比如 HTTP 请求），只在最外层的接入点持有请求连接，内部服务的传递过程依然是异步化的。
 
 #### 测试
 测试从不同的维度可以划分（参考[2]）如下四个象限，四个象限从不同维度视角对测试做了观察和判断，从中可以看出除了体验和探索性测试需要人工介入，其他维度的测试都可以通过自动化来实现，以降低测试人工成本和重复性工作。
 
-![](/assets/article_images/11.jpg)
+![](/assets/article_images/2016-04-24-11.png)
 
 而从测试所处的层次，又可以得到下面这样个一个测试金字塔：
 
-![](/assets/article_images/12.jpg)
+![](/assets/article_images/2016-04-24-12.png)
 
 而微服务的测试，服务开发和运营人员专注于做好服务实现层面的单元测试和服务契约层面的接口测试。而面向业务功能的端到端测试，更多是依赖自动化脚本完成。而为了维护好这些自动化测试脚本，也需要保持服务接口和契约的兼容性和稳定性，这些自动化测试脚本也属于服务的消费方之一。
 
 #### 部署
 借助于虚拟化或容器等隔离技术，每个服务感觉都是独享资源，不必考虑额外的资源使用冲突。
 
-![](/assets/article_images/13.jpg)
+![](/assets/article_images/2016-04-24-13.png)
 
 #### 监控
 大量松耦合的微服务通过相互协作来完成业务功能的流程处理，在这样一个复杂的生产环境中，出现异常或错误是很难迅速定位的。这就需要一套成体系的监控基础设施，在我们的实践中借助了公司统一的监控基础设施，对监控进行了分层，顶层的监控站在用户视角，底层的监控站在系统视角，形成更完善的反馈链路。
 
-![](/assets/article_images/14.jpg)
+![](/assets/article_images/2016-04-24-14.png)
 
 
 ### 原则
 在实施微服务架构的过程中，通过不断的迭代、摸索和修正得到了一些良好的实践模式，对这些良好的实践模式进行抽象提炼总结就得到了架构原则。而对架构原则的把控是为了更好的服务于业务的战略目标。原则的普及带来整体效率的提升和边际成本的下降，以便更有效的支持组织业务战略目标的快速达成。下面这个图结合了微服务架构实施过程中，演示了关于「交付实践」-「架构原则」-「战略目标」之间的一个升维演化和支撑关系。
 
-![](/assets/article_images/15.jpg)
+![](/assets/article_images/2016-04-24-15.png)
 
 
 ## 角色
@@ -202,15 +202,15 @@ Melvin Conway 在 1967 年观察到一个现象并总结出了一条著名的康
 
 
 ## 参考
-[1] Martin Fowler & James Lewis. [Microservices](http://martinfowler.com/articles/microservices.html). 2014.03
-[2] Sam Newman. [Building Microservices](https://book.douban.com/subject/25881698/). 2014.12
-[3] Peter Lawrey. [Micro-services for performance](https://vanilla-java.github.io/2016/03/22/Micro-services-for-performance.html). 2016.03
-[4] Mike Gancarz. [The UNIX Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy#Mike_Gancarz%3a_The_UNIX_Philosophy). 1994
-[5] Melvin Conway. [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law). 1967
-[6] Jon Postel. [Robustness principle](https://en.wikipedia.org/wiki/Robustness_principle). 1980
-[7] Martin Fowler. [MicroservicePremium](http://martinfowler.com/bliki/MicroservicePremium.html). 2015.05
-[8] Martin Fowler. [MicroservicePrerequisites](http://martinfowler.com/bliki/MicroservicePrerequisites.html). 2014.08
-[9] 左手的灵魂. [程序员职业生涯中的 Norris 常数](http://blog.jobbole.com/76139/). 2014.06
+[1] Martin Fowler & James Lewis. [Microservices](http://martinfowler.com/articles/microservices.html). 2014.03  
+[2] Sam Newman. [Building Microservices](https://book.douban.com/subject/25881698/). 2014.12  
+[3] Peter Lawrey. [Micro-services for performance](https://vanilla-java.github.io/2016/03/22/Micro-services-for-performance.html). 2016.03  
+[4] Mike Gancarz. [The UNIX Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy#Mike_Gancarz%3a_The_UNIX_Philosophy). 1994  
+[5] Melvin Conway. [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law). 1967  
+[6] Jon Postel. [Robustness principle](https://en.wikipedia.org/wiki/Robustness_principle). 1980  
+[7] Martin Fowler. [MicroservicePremium](http://martinfowler.com/bliki/MicroservicePremium.html). 2015.05  
+[8] Martin Fowler. [MicroservicePrerequisites](http://martinfowler.com/bliki/MicroservicePrerequisites.html). 2014.08  
+[9] 左手的灵魂. [程序员职业生涯中的 Norris 常数](http://blog.jobbole.com/76139/). 2014.06  
 [10] mindwind. [京东咚咚架构演进](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=401186254&idx=1&sn=1b3c81386973c99cad99079fcd6be6e3). 2015.12
 
 
