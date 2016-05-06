@@ -8,6 +8,13 @@ image    : /assets/images/collect.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-05-06 [日请求量过亿，谈陌陌的Feed服务优化之路](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=2659597071&idx=1&sn=cd8df9f8c52dfbfb54e65adbe19fae27&scene=0)
+  - 2016-05-06 [读多少本书是外行的问法](http://mp.weixin.qq.com/s?__biz=MzA5OTc3NzEzMw==&mid=405798320&idx=1&sn=a856af913642cdf07d3214f87029d5a2&scene=0)
+  - 2016-04-29 [只有努力还不够，方法更重要](http://mp.weixin.qq.com/s?__biz=MzA3MjM2MzYzOQ==&mid=2651359476&idx=1&sn=1de11bbe5ebb75dc081cb259a020d3ab&scene=0)
+  - 2016-04-29 [自己的天空](http://mp.weixin.qq.com/s?__biz=MjM5MjAzODU2MA==&mid=2652779670&idx=1&sn=f42d06c9748440777bfc319cb5956e4a&scene=0)
+  - 2016-04-22 [快速学习的几个基本原则](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=2651629655&idx=1&sn=6957c159e21d392aaf757b81cf4a602b&scene=0)
+  - 2016-04-22 [很多人所谓的“理想”真的不是“令箭”而是...](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=2651629671&idx=1&sn=3935561f1d76d11b8512f8057247d7c4&scene=0)
+  - 2016-04-22 [这一年，我是怎么坚持自学的？](http://mp.weixin.qq.com/s?__biz=MzA5MDg0MzA4NQ==&mid=401473629&idx=1&sn=cf945ef0788390c6b12dc99c078a310c&scene=2&srcid=0424M3kmLRZf9AS4jRgw11Ne&from=timeline&isappinstalled=0)
   - 2016-04-15 [战略是什么](http://mp.weixin.qq.com/s?__biz=MzA3ODQzNzU4OQ==&mid=402802580&idx=1&sn=3cd73a5a32184eeeb4066a6cc3214f3b&scene=0)
   - 2016-04-15 [在首席架构师眼里，架构的本质是](http://mp.weixin.qq.com/s?__biz=MzA4NTU2MTg3MQ==&mid=407250191&idx=1&sn=abbda20219694844554d8318fba23693&scene=0)
   - 2016-04-07 [活到 111 岁是什么样的体验？](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=402987984&idx=1&sn=8e57b0c6e9d9b94878d8ed08f453c560&scene=0)
