@@ -8,6 +8,8 @@ image    : /assets/images/collect.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-05-30 [如何将社交恐惧变成优势？](http://mp.weixin.qq.com/s?__biz=MzI0NzE2ODc1Nw==&mid=2650227607&idx=1&sn=ac26a6c95c364b966e2ccf85668c4027&scene=2&srcid=0524M4YrBDLL2IjodFlYSatB&from=timeline&isappinstalled=0)
+  - 2016-05-30 [穿过薄薄世界，遇见你的鱼群](http://mp.weixin.qq.com/s?__biz=MzI2OTA3MTA5Mg==&mid=2651747378&idx=1&sn=57311bd00294d9c627e19ad948813911&scene=0)
   - 2016-05-06 [日请求量过亿，谈陌陌的Feed服务优化之路](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=2659597071&idx=1&sn=cd8df9f8c52dfbfb54e65adbe19fae27&scene=0)
   - 2016-05-06 [读多少本书是外行的问法](http://mp.weixin.qq.com/s?__biz=MzA5OTc3NzEzMw==&mid=405798320&idx=1&sn=a856af913642cdf07d3214f87029d5a2&scene=0)
   - 2016-04-29 [只有努力还不够，方法更重要](http://mp.weixin.qq.com/s?__biz=MzA3MjM2MzYzOQ==&mid=2651359476&idx=1&sn=1de11bbe5ebb75dc081cb259a020d3ab&scene=0)
