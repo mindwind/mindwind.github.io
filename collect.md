@@ -8,6 +8,9 @@ image    : /assets/images/collect.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-06-08 [六一儿童节再赠小朋友](http://mp.weixin.qq.com/s?__biz=MjM5MjAzODU2MA==&mid=2652779773&idx=1&sn=2b2186520e8f363e8a9951357c205af9&scene=0)
+  - 2016-06-08 [不一样的第一桶金](https://xueqiu.com/1091244780/69500739)
+  - 2016-06-08 [那些我消失掉的日子](http://mp.weixin.qq.com/s?__biz=MjM5MjAzODU2MA==&mid=2652779781&idx=1&sn=b8ba49c4c7c40196f9852b47f08be586&scene=0)
   - 2016-05-30 [如何将社交恐惧变成优势？](http://mp.weixin.qq.com/s?__biz=MzI0NzE2ODc1Nw==&mid=2650227607&idx=1&sn=ac26a6c95c364b966e2ccf85668c4027&scene=2&srcid=0524M4YrBDLL2IjodFlYSatB&from=timeline&isappinstalled=0)
   - 2016-05-30 [穿过薄薄世界，遇见你的鱼群](http://mp.weixin.qq.com/s?__biz=MzI2OTA3MTA5Mg==&mid=2651747378&idx=1&sn=57311bd00294d9c627e19ad948813911&scene=0)
   - 2016-05-06 [日请求量过亿，谈陌陌的Feed服务优化之路](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=2659597071&idx=1&sn=cd8df9f8c52dfbfb54e65adbe19fae27&scene=0)
