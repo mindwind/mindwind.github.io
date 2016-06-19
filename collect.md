@@ -8,6 +8,10 @@ image    : /assets/images/collect.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-06-19 [虎皮青椒](http://mp.weixin.qq.com/s?__biz=MzA4NDIyMTEyMA==&mid=200151097&idx=2&sn=3861ff9f981e5ef82984929a41ef2e9b&scene=2&srcid=0616Cb8MAElBfEOq395CgVVX&from=timeline&isappinstalled=0)
+  - 2016-06-19 [像孩子一样](http://mp.weixin.qq.com/s?__biz=MjM5NjIyODQyOQ==&mid=401102266&idx=1&sn=5bea192ccd79bb06bfe02e81d34a1030&scene=4#wechat_redirec)
+  - 2016-06-19 [20年IT老兵分享：账务系统设计及应用](https://mp.weixin.qq.com/cgi-bin/appmsg?begin=0&count=10&t=media/appmsg_list&type=10&action=list_card&lang=zh_CN&token=809860472)
+  - 2016-06-19 [设计是门逻辑学，然后才是美学](http://mp.weixin.qq.com/s?__biz=MzA4ODgwNjk1MQ==&mid=2653788300&idx=1&sn=d66d4b6db64fa3d4c70200becfbdd425&scene=0)
   - 2016-06-08 [六一儿童节再赠小朋友](http://mp.weixin.qq.com/s?__biz=MjM5MjAzODU2MA==&mid=2652779773&idx=1&sn=2b2186520e8f363e8a9951357c205af9&scene=0)
   - 2016-06-08 [不一样的第一桶金](https://xueqiu.com/1091244780/69500739)
   - 2016-06-08 [那些我消失掉的日子](http://mp.weixin.qq.com/s?__biz=MjM5MjAzODU2MA==&mid=2652779781&idx=1&sn=b8ba49c4c7c40196f9852b47f08be586&scene=0)
