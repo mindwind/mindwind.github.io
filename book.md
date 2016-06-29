@@ -8,14 +8,16 @@ image    : /assets/images/book.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
-  - 2015-01-18 [邓小平时代](http://book.douban.com/subject/20424526/)
+  - 2016-06-29 [朗文英语语法](https://book.douban.com/subject/1003087/)
+  - 2016-02-08 [把时间当作朋友：运用心智获得解放](https://book.douban.com/subject/3609132/)
+  - 2016-01-18 [邓小平时代](http://book.douban.com/subject/20424526/)
 
 
 ## 2015
 -------------------------------------------------------------------------------
   - 2015-10-18 [增长黑客：创业公司的用户与收入增长秘籍](http://book.douban.com/subject/26541801/)
   - 2015-08-04 [不敢止步：一个软件工匠的12年](http://book.douban.com/subject/26135794/)
-  - 2015-06-25 [股市进阶之道 : 一个散户的自我修养](http://book.douban.com/subject/25829645/)
+  - 2015-06-25 [股市进阶之道：一个散户的自我修养](http://book.douban.com/subject/25829645/)
   - 2015-05-08 [Building Microservices: Designing Fine-Grained Systems](http://book.douban.com/subject/25881698/)
   - 2015-05-06 [万万没想到：用理工科思维理解世界](http://book.douban.com/subject/25986341/)
   - 2015-03-20 [编码：隐匿在计算机软硬件背后的语言](http://book.douban.com/subject/4822685/)
