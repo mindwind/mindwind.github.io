@@ -115,6 +115,9 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2016
+  - 2016-07-11 [把鸡蛋放在不同的篮子里，真可以降低风险吗？](http://mp.weixin.qq.com/s?__biz=MzA5MjE3ODgzNA==&mid=2652231356&idx=1&sn=7fa61b5f52430673e5b9f69eeec6dc50&scene=0)
+  - 2016-07-11 [一篇文看懂Hadoop：风雨十年，未来何去何从](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403025428&idx=1&sn=bb2c0380ce29dc3cecf5f6a2afe36960&scene=0)
+  - 2016-07-11 [又拍云图片处理集群架构](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=404669856&idx=1&sn=fd2856ac13112416833e41093f66735c&scene=0)
   - 2016-07-04 [穷人越穷，富人越富](https://xueqiu.com/8342630583/41208274)
   - 2016-07-04 [锂电概念深度剖析](http://mp.weixin.qq.com/s?__biz=MzA5MjE3ODgzNA==&mid=2652231226&idx=1&sn=c5b5ec5141541b53c51c560c5a613e04&scene=0)
   - 2016-06-08 [不一样的第一桶金](https://xueqiu.com/1091244780/69500739)
