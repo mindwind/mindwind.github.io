@@ -87,6 +87,7 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2016
+  - 2016-07-18 [Google为什么要把数十亿行代码放到一个库中？](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=2659597658&idx=1&sn=0311e21d3fd4d101e3b18298beef0d49&scene=0)
   - 2016-07-04 [撞库攻击是场持久战](http://mp.weixin.qq.com/s?__biz=MjM5OTk2MTMxOQ==&mid=2727827047&idx=1&sn=53b703e555c83ccc0399473d914902ff&scene=0)
   - 2016-06-27 [环信即时通讯的技术要点学习](http://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&mid=2650342773&idx=1&sn=ed013e21e081c81c2a4dbf220df732d9&scene=2&srcid=0626bW6vBht4UtgyacDVKZXc&from=timeline&isappinstalled=0)
   - 2016-06-27 [加盐hash保存密码的正确方式](http://drops.wooyun.org/papers/1066)
@@ -115,6 +116,7 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2016
+  - 2016-07-18 [个人如何通过自学构建经济学的思维方式](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=2651630017&idx=1&sn=f8cd62f10f8fa04417d25754731a7b19&scene=0)
   - 2016-07-11 [把鸡蛋放在不同的篮子里，真可以降低风险吗？](http://mp.weixin.qq.com/s?__biz=MzA5MjE3ODgzNA==&mid=2652231356&idx=1&sn=7fa61b5f52430673e5b9f69eeec6dc50&scene=0)
   - 2016-07-11 [一篇文看懂Hadoop：风雨十年，未来何去何从](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403025428&idx=1&sn=bb2c0380ce29dc3cecf5f6a2afe36960&scene=0)
   - 2016-07-11 [又拍云图片处理集群架构](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=404669856&idx=1&sn=fd2856ac13112416833e41093f66735c&scene=0)
