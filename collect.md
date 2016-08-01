@@ -83,10 +83,12 @@ image    : /assets/images/collect.jpg
   - 2014-11-18 [开发人员、程序员与计算机科学家三者的差别](/collect/2014-11-18-开发人员、程序员与计算机科学家三者的差别.html)
 
 
+
 ## 技术
 -------------------------------------------------------------------------------
 
 ### 2016
+  - 2016-08-01 [你所不知道的TIME_WAIT和CLOSE_WAIT](http://mp.weixin.qq.com/s?__biz=MzI4MjA4ODU0Ng==&mid=402415747&idx=1&sn=2458ba4fe1830eecdb8db725d3f395fa&scene=0)
   - 2016-07-18 [Google为什么要把数十亿行代码放到一个库中？](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=2659597658&idx=1&sn=0311e21d3fd4d101e3b18298beef0d49&scene=0)
   - 2016-07-04 [撞库攻击是场持久战](http://mp.weixin.qq.com/s?__biz=MjM5OTk2MTMxOQ==&mid=2727827047&idx=1&sn=53b703e555c83ccc0399473d914902ff&scene=0)
   - 2016-06-27 [环信即时通讯的技术要点学习](http://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&mid=2650342773&idx=1&sn=ed013e21e081c81c2a4dbf220df732d9&scene=2&srcid=0626bW6vBht4UtgyacDVKZXc&from=timeline&isappinstalled=0)
@@ -110,6 +112,7 @@ image    : /assets/images/collect.jpg
 ### 2015
   - 2015-12-16 [微信朋友圈技术之道](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=401735823&idx=1&sn=7a4df58c22d9d3145e0692dd580f6a3d&scene=0)
   - 2015-12-14 [Google 高可用架构理念与实践](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=402738153&idx=1&sn=af5e76aad269799e517607cdc2cfaf06&scene=2&srcid=1214WRHbvtYoHngyBagxE9Yz&from=timeline&isappinstalled=0)
+
 
 
 ## 投资
