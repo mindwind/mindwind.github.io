@@ -10,6 +10,7 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2016
+  - 2016-08-07 [Android端外推送到底有多烦？](http://mp.weixin.qq.com/s?__biz=MzA4NTg1MjM0Mg==&mid=2657261350&idx=1&sn=6cea730ef5a144ac243f07019fb43076&scrolltodown=1)
   - 2016-07-04 [科隆大教堂：修不完的“巴别塔”](http://www.yuntoo.com/inspiration/15525)
   - 2016-06-27 [伟大的城市吸引有抱负的人](https://wap.koudaitong.com/v2/showcase/feature?alias=10l1weggo&spm=m1466571032871991689732209.autoreply&redirect_count=1)
   - 2016-06-19 [虎皮青椒](http://mp.weixin.qq.com/s?__biz=MzA4NDIyMTEyMA==&mid=200151097&idx=2&sn=3861ff9f981e5ef82984929a41ef2e9b&scene=2&srcid=0616Cb8MAElBfEOq395CgVVX&from=timeline&isappinstalled=0)
