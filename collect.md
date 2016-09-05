@@ -10,7 +10,8 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2016
-  - 2016-08-07 [Android端外推送到底有多烦？](http://mp.weixin.qq.com/s?__biz=MzA4NTg1MjM0Mg==&mid=2657261350&idx=1&sn=6cea730ef5a144ac243f07019fb43076&scrolltodown=1)
+  - 2016-09-04 [Happy, Smart, and Useful](https://sivers.org/hsu)
+  - 2016-09-04 [唐诗，就是一场太阳和月亮的战争](http://mp.weixin.qq.com/s?__biz=MzA4NDEzNTMyMA==&mid=2650314896&idx=1&sn=3fc3e93866994df321d419ca41aa4d23&scene=0)
   - 2016-07-04 [科隆大教堂：修不完的“巴别塔”](http://www.yuntoo.com/inspiration/15525)
   - 2016-06-27 [伟大的城市吸引有抱负的人](https://wap.koudaitong.com/v2/showcase/feature?alias=10l1weggo&spm=m1466571032871991689732209.autoreply&redirect_count=1)
   - 2016-06-19 [虎皮青椒](http://mp.weixin.qq.com/s?__biz=MzA4NDIyMTEyMA==&mid=200151097&idx=2&sn=3861ff9f981e5ef82984929a41ef2e9b&scene=2&srcid=0616Cb8MAElBfEOq395CgVVX&from=timeline&isappinstalled=0)
@@ -91,6 +92,7 @@ image    : /assets/images/collect.jpg
 ### 2016
   - 2016-08-15 [中国的支付清算体系是怎么玩的？](http://api.woshipm.com/pd/385099.html?sf=mobile&from=timeline&isappinstalled=1)
   - 2016-08-15 [技术的正宗与野路子](http://mp.weixin.qq.com/s?__biz=MzA4NTg1MjM0Mg==&mid=2657261357&idx=1&sn=ebb11a1623e00ca8e6ad55c9ad6b2547&scene=2&srcid=08104T9kNdakZKQcvejPWdIs&from=timeline&isappinstalled=0)
+  - 2016-08-07 [Android端外推送到底有多烦？](http://mp.weixin.qq.com/s?__biz=MzA4NTg1MjM0Mg==&mid=2657261350&idx=1&sn=6cea730ef5a144ac243f07019fb43076&scrolltodown=1)
   - 2016-08-01 [你所不知道的TIME_WAIT和CLOSE_WAIT](http://mp.weixin.qq.com/s?__biz=MzI4MjA4ODU0Ng==&mid=402415747&idx=1&sn=2458ba4fe1830eecdb8db725d3f395fa&scene=0)
   - 2016-07-18 [Google为什么要把数十亿行代码放到一个库中？](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=2659597658&idx=1&sn=0311e21d3fd4d101e3b18298beef0d49&scene=0)
   - 2016-07-11 [一篇文看懂Hadoop：风雨十年，未来何去何从](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403025428&idx=1&sn=bb2c0380ce29dc3cecf5f6a2afe36960&scene=0)
@@ -124,6 +126,7 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2016
+  - 2016-09-04 [关于期权的若干硬知识](http://mp.weixin.qq.com/s?__biz=MjM5NzI0Mjg0MA==&mid=2652371097&idx=1&sn=a6a8fca3734a8f5aa14c532e602f0d38&scene=0)
   - 2016-07-18 [个人如何通过自学构建经济学的思维方式](http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&mid=2651630017&idx=1&sn=f8cd62f10f8fa04417d25754731a7b19&scene=0)
   - 2016-07-11 [把鸡蛋放在不同的篮子里，真可以降低风险吗？](http://mp.weixin.qq.com/s?__biz=MzA5MjE3ODgzNA==&mid=2652231356&idx=1&sn=7fa61b5f52430673e5b9f69eeec6dc50&scene=0)
   - 2016-07-04 [穷人越穷，富人越富](https://xueqiu.com/8342630583/41208274)
