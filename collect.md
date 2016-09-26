@@ -10,6 +10,7 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2016
+  - 2016-09-26 [从Google Maglev到UCloud Vortex，如何造一个牛逼的负载均衡？](https://segmentfault.com/a/1190000004713123)
   - 2016-09-04 [Happy, Smart, and Useful](https://sivers.org/hsu)
   - 2016-09-04 [唐诗，就是一场太阳和月亮的战争](http://mp.weixin.qq.com/s?__biz=MzA4NDEzNTMyMA==&mid=2650314896&idx=1&sn=3fc3e93866994df321d419ca41aa4d23&scene=0)
   - 2016-07-04 [科隆大教堂：修不完的“巴别塔”](http://www.yuntoo.com/inspiration/15525)
