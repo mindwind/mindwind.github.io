@@ -8,6 +8,7 @@ image    : /assets/images/book.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-09-21 [异类：不一样的成功启示录](https://book.douban.com/subject/25863621/)
   - 2016-08-03 [The Leadership Pipeline: How to Build the Leadership Powered Company](https://book.douban.com/subject/6134583/)
   - 2016-06-29 [朗文英语语法](https://book.douban.com/subject/1003087/)
   - 2016-02-08 [把时间当作朋友：运用心智获得解放](https://book.douban.com/subject/3609132/)
