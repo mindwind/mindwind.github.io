@@ -92,6 +92,7 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2016
+  - 2016-10-31 [Java性能优化指南](http://calvin1978.blogcn.com/articles/javatuning.html?sukey=f740b693ad416b27e8ecb491288373867f9712fd6cd728340f892f6d178ca3fc4dae030d715de5a2a1246a65d101dbca)
   - 2016-08-15 [中国的支付清算体系是怎么玩的？](http://api.woshipm.com/pd/385099.html?sf=mobile&from=timeline&isappinstalled=1)
   - 2016-08-15 [技术的正宗与野路子](http://mp.weixin.qq.com/s?__biz=MzA4NTg1MjM0Mg==&mid=2657261357&idx=1&sn=ebb11a1623e00ca8e6ad55c9ad6b2547&scene=2&srcid=08104T9kNdakZKQcvejPWdIs&from=timeline&isappinstalled=0)
   - 2016-08-07 [Android端外推送到底有多烦？](http://mp.weixin.qq.com/s?__biz=MzA4NTg1MjM0Mg==&mid=2657261350&idx=1&sn=6cea730ef5a144ac243f07019fb43076&scrolltodown=1)
