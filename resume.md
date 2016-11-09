@@ -19,10 +19,15 @@ image    : /assets/images/resume_photo.jpg
 胡峰/男/1981  
 硕士/中山大学软件工程专业  
 工作年限/10年  
-微博: @云下山巅  
+微博: @_mindwind_  
 微信: mindwind  
 博客: [http://mindwind.me](http://mindwind.me)  
 GitHub: [https://github.com/mindwind](https://github.com/mindwind)
+
+
+## 关键历练和核心能力
+--------------------------------------------------------------------------------
+电商行业多年软件开发业务背景，Java 后端高并发分布式应用核心架构和开发能力。
 
 
 ## 工作经历
@@ -102,7 +107,7 @@ Github 托管地址：[https://github.com/mindwind](https://github.com/mindwind)
   - Web  前端: Bootstrap/ExtJS/AngularJS
   - 数据库和缓存: MySQL/Oracle/MongoDB/HBase/Redis/Memcache
   - 版本管理:  SVN/Git
-  - 编程语言:  java/javascript/shell
+  - 编程语言:  Java/Javascript/Shell
 
 
 ## 致谢
