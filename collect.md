@@ -92,6 +92,7 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2016
+  - 2016-11-14 [一份平民化的应用性能优化CheckList](http://mp.weixin.qq.com/s?__biz=MzIzODYyNjkzNw==&mid=2247483723&idx=1&sn=4fa6e80e7f6eae02a0620c5b5aef5955&chksm=e937305dde40b94bb63d9cb4c7187295c296a1cda0fa52b37c55d6922f0ab3927ee071637903&mpshare=1&scene=2&srcid=1114VZdnAr31YSLYJhdJgLnJ&from=timeline&isappinstalled=0)
   - 2016-11-11 [服务化框架－分布式Unique ID的生成方法一览](http://calvin1978.blogcn.com/articles/uuid.html)
   - 2016-11-03 [关键业务系统的JVM参数推荐](http://calvin1978.blogcn.com/articles/jvmoption-2.html)
   - 2016-10-31 [Java性能优化指南](http://calvin1978.blogcn.com/articles/javatuning.html)
