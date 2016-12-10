@@ -8,6 +8,7 @@ image    : /assets/images/book.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-12-08 [软技能：代码之外的生存指南](https://book.douban.com/subject/26835090/)
   - 2016-10-26 [格鲁夫给经理人的第一课](https://book.douban.com/subject/5431183/)
   - 2016-09-21 [异类：不一样的成功启示录](https://book.douban.com/subject/25863621/)
   - 2016-08-03 [The Leadership Pipeline: How to Build the Leadership Powered Company](https://book.douban.com/subject/6134583/)
