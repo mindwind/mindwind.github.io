@@ -92,6 +92,7 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2016
+  - 2016-12-22 [手机QQ上传速度提升8倍秘诀：解决速度与成功率的“鱼翅”项目](http://mp.weixin.qq.com/s/KCaz4vELp8-P0_dtYuAJ0w)
   - 2016-12-05 [谈谈PhxSQL的设计和实现哲学（上）](http://mp.weixin.qq.com/s?__biz=MzI4NDMyNTU2Mw==&mid=2247483790&idx=1&sn=c925202df42c54422db9a134ea764eac&scene=0)
   - 2016-12-05 [谈谈PhxSQL的设计和实现哲学（下）](http://mp.weixin.qq.com/s?__biz=MzI4NDMyNTU2Mw==&mid=2247483795&idx=1&sn=233f803d9af3cd31e551ac0709f682ec&scene=0)
   - 2016-12-05 [100亿次的挑战：如何实现一个“有把握”的春晚摇一摇系统](http://mp.weixin.qq.com/s/DLbaiSiH15QBkrB_i0imEw)
