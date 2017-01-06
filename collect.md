@@ -9,6 +9,9 @@ image    : /assets/images/collect.jpg
 ## 随笔
 -------------------------------------------------------------------------------
 
+### 2017
+  - 2017-01-05 [知识的三个层次](http://mp.weixin.qq.com/s/HnbBeQKG3SibP6q8eqVVJQ)
+
 ### 2016
   - 2016-10-17 [好学校只教一件事](https://h5.sao.cn/magazine/detail?alias=m1f883e1)
   - 2016-09-26 [从Google Maglev到UCloud Vortex，如何造一个牛逼的负载均衡？](https://segmentfault.com/a/1190000004713123)
