@@ -94,13 +94,20 @@ image    : /assets/images/collect.jpg
 ## 技术
 -------------------------------------------------------------------------------
 
+
+### 2017
+  - 2017-01-18 [微信：Android 智能心跳方案](http://mp.weixin.qq.com/s/ghnmC8709DvnhieQhkLJpA)
+  - 2017-01-18 [微信：Mars 系列1 - 高性能日志模块 xlog](http://mp.weixin.qq.com/s/cnhuEodJGIbdodh0IxNeXQ)
+  - 2017-01-18 [微信：Mars 系列2 - 信令传输超时设计](http://mp.weixin.qq.com/s/PnICVDyVuMSyvpvTrdEpSQ)
+  - 2017-01-18 [微信：Mars 系列3 - 连接超时与 IP&Port 排序](http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649286458&idx=1&sn=320f690faa4f97f7a49a291d4de174a9)
+
 ### 2016
   - 2016-12-22 [手机QQ上传速度提升8倍秘诀：解决速度与成功率的“鱼翅”项目](http://mp.weixin.qq.com/s/KCaz4vELp8-P0_dtYuAJ0w)
   - 2016-12-05 [谈谈PhxSQL的设计和实现哲学（上）](http://mp.weixin.qq.com/s?__biz=MzI4NDMyNTU2Mw==&mid=2247483790&idx=1&sn=c925202df42c54422db9a134ea764eac&scene=0)
   - 2016-12-05 [谈谈PhxSQL的设计和实现哲学（下）](http://mp.weixin.qq.com/s?__biz=MzI4NDMyNTU2Mw==&mid=2247483795&idx=1&sn=233f803d9af3cd31e551ac0709f682ec&scene=0)
   - 2016-12-05 [100亿次的挑战：如何实现一个“有把握”的春晚摇一摇系统](http://mp.weixin.qq.com/s/DLbaiSiH15QBkrB_i0imEw)
   - 2016-12-04 [单表60亿记录等大数据场景的MySQL优化和运维之道](http://mp.weixin.qq.com/s/-TRiWDYFhaO7wqjMPTNGBA)
-  - 2016-11-14 [一份平民化的应用性能优化CheckList](http://mp.weixin.qq.com/s?__biz=MzIzODYyNjkzNw==&mid=2247483723&idx=1&sn=4fa6e80e7f6eae02a0620c5b5aef5955&chksm=e937305dde40b94bb63d9cb4c7187295c296a1cda0fa52b37c55d6922f0ab3927ee071637903&mpshare=1&scene=2&srcid=1114VZdnAr31YSLYJhdJgLnJ&from=timeline&isappinstalled=0)
+  - 2016-11-14 [一份平民化的应用性能优化CheckList](http://calvin1978.blogcn.com/articles/checklist.html?sukey=38726ace03821fd3a778c1d359887230ebe9df42b4c9cef6ca20bbfb3ef4bb6fd8c1a09d61f6f44139a183be03703590)
   - 2016-11-11 [服务化框架－分布式Unique ID的生成方法一览](http://calvin1978.blogcn.com/articles/uuid.html)
   - 2016-11-03 [关键业务系统的JVM参数推荐](http://calvin1978.blogcn.com/articles/jvmoption-2.html)
   - 2016-10-31 [Java性能优化指南](http://calvin1978.blogcn.com/articles/javatuning.html)
