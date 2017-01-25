@@ -138,6 +138,7 @@ image    : /assets/images/collect.jpg
   - 2016-01-27 [鏖战双十一：阿里直播平台面临的技术挑战](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=402443318&idx=1&sn=8fc8896b86f2f385c428e7ab558d16e9&scene=0)
   - 2016-01-14 [从0到1：微信后台演进之路](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=402340325&idx=1&sn=5b7bf6025b1a83a0e529e630fc95ae28&scene=2&srcid=0115qK1uxBheullVx9Wolnt8&from=timeline&isappinstalled=0)
 
+
 ### 2015
   - 2015-12-16 [微信朋友圈技术之道](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=401735823&idx=1&sn=7a4df58c22d9d3145e0692dd580f6a3d&scene=0)
   - 2015-12-14 [Google 高可用架构理念与实践](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=402738153&idx=1&sn=af5e76aad269799e517607cdc2cfaf06&scene=2&srcid=1214WRHbvtYoHngyBagxE9Yz&from=timeline&isappinstalled=0)
