@@ -10,6 +10,7 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2017
+  - 2017-02-17 [糟糕的程序员面试](http://mp.weixin.qq.com/s/E76VpH848HoCFu5sSKG6Mw)
   - 2017-01-05 [知识的三个层次](http://mp.weixin.qq.com/s/HnbBeQKG3SibP6q8eqVVJQ)
 
 ### 2016
