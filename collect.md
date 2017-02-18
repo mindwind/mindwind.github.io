@@ -10,12 +10,12 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2017
+  - 2017-02-18 [写作是一种高质量的社交](http://mp.weixin.qq.com/s/y_hBS-i7d9hk-6i1HJsK2w)
   - 2017-02-17 [糟糕的程序员面试](http://mp.weixin.qq.com/s/E76VpH848HoCFu5sSKG6Mw)
   - 2017-01-05 [知识的三个层次](http://mp.weixin.qq.com/s/HnbBeQKG3SibP6q8eqVVJQ)
 
 ### 2016
   - 2016-10-17 [好学校只教一件事](https://h5.sao.cn/magazine/detail?alias=m1f883e1)
-  - 2016-09-26 [从Google Maglev到UCloud Vortex，如何造一个牛逼的负载均衡？](https://segmentfault.com/a/1190000004713123)
   - 2016-09-04 [Happy, Smart, and Useful](https://sivers.org/hsu)
   - 2016-09-04 [唐诗，就是一场太阳和月亮的战争](http://mp.weixin.qq.com/s?__biz=MzA4NDEzNTMyMA==&mid=2650314896&idx=1&sn=3fc3e93866994df321d419ca41aa4d23&scene=0)
   - 2016-07-04 [科隆大教堂：修不完的“巴别塔”](http://www.yuntoo.com/inspiration/15525)
@@ -113,6 +113,7 @@ image    : /assets/images/collect.jpg
   - 2016-11-11 [服务化框架－分布式Unique ID的生成方法一览](http://calvin1978.blogcn.com/articles/uuid.html)
   - 2016-11-03 [关键业务系统的JVM参数推荐](http://calvin1978.blogcn.com/articles/jvmoption-2.html)
   - 2016-10-31 [Java性能优化指南](http://calvin1978.blogcn.com/articles/javatuning.html)
+  - 2016-09-26 [从 Google Maglev 到 UCloud Vortex，如何造一个牛逼的负载均衡？](https://segmentfault.com/a/1190000004713123)
   - 2016-08-15 [中国的支付清算体系是怎么玩的？](http://api.woshipm.com/pd/385099.html?sf=mobile&from=timeline&isappinstalled=1)
   - 2016-08-15 [技术的正宗与野路子](http://mp.weixin.qq.com/s?__biz=MzA4NTg1MjM0Mg==&mid=2657261357&idx=1&sn=ebb11a1623e00ca8e6ad55c9ad6b2547&scene=2&srcid=08104T9kNdakZKQcvejPWdIs&from=timeline&isappinstalled=0)
   - 2016-08-07 [Android端外推送到底有多烦？](http://mp.weixin.qq.com/s?__biz=MzA4NTg1MjM0Mg==&mid=2657261350&idx=1&sn=6cea730ef5a144ac243f07019fb43076&scrolltodown=1)
