@@ -8,13 +8,13 @@ permalink : /craft/about/
 
 
 ## The origin of the name
-From 1998 to 2008, i have a crush on two games [StarCraft](http://us.blizzard.com/en-us/games/sc)
+From 1998 to 2008, I have a crush on two games [StarCraft](http://us.blizzard.com/en-us/games/sc)
 and [WarCraft](http://us.blizzard.com/en-us/games/war3).
-One day i became a professional programmer, i spent more and more time on programming not gaming.
+One day I became a professional programmer, spent more and more time on programming, not gaming.
 I miss deeply those [StarCraft](http://us.blizzard.com/en-us/games/sc/)
 or [WarCraft](http://us.blizzard.com/en-us/games/war3/) past days,
-so i use the 'Craft' to naming this project to commemorate past days.
-More importantly, i hope this project to inherit the spirit of the two craft games.
+so I use the 'Craft' to name this project for commemorating past days.
+More importantly, I hope this project will inherit the spirit of the two craft games.
 
 
    > The pursuit of perfection and high quality.
