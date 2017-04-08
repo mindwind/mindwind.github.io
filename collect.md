@@ -10,6 +10,9 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2017
+  - 2017-04-08 [主观世界的破碎与重建——湖畔大学的失败课外课](https://mp.weixin.qq.com/s/5b_f4gcri81HATDx43tRQw)
+  - 2017-04-08 [70%以上业务由H5开发，手机QQ Hybrid 的架构如何优化演进？](https://mp.weixin.qq.com/s/evzDnTsHrAr2b9jcevwBzA)
+  - 2017-04-08 [你与优秀管理者之间只差这一个图谱](https://mp.weixin.qq.com/s/7MKkP1wMx_5W8_YzsQVq6Q)
   - 2017-02-18 [写作是一种高质量的社交](http://mp.weixin.qq.com/s/y_hBS-i7d9hk-6i1HJsK2w)
   - 2017-02-17 [糟糕的程序员面试](http://mp.weixin.qq.com/s/E76VpH848HoCFu5sSKG6Mw)
   - 2017-01-05 [知识的三个层次](http://mp.weixin.qq.com/s/HnbBeQKG3SibP6q8eqVVJQ)
