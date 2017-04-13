@@ -8,6 +8,7 @@ image    : /assets/images/book.jpg
 
 ## 2017
 -------------------------------------------------------------------------------
+  - 2017-04-10 [Principles](https://book.douban.com/subject/20036150/)
   - 2017-03-06 [关于智能](https://book.douban.com/subject/25926823/)
   - 2017-02-02 [信息简史](https://book.douban.com/subject/25752043/)
 
