@@ -101,6 +101,7 @@ image    : /assets/images/collect.jpg
 
 
 ### 2017
+  - 2017-04-24 [CNN浅析和历年ImageNet冠军模型解析](https://mp.weixin.qq.com/s/fhJbE6V7r0nhVU3Vu0EGbw)
   - 2017-04-13 [神经网络浅讲：从神经元到深度学习](http://www.cnblogs.com/subconscious/p/5058741.html)
   - 2017-04-13 [从机器学习谈起](http://www.cnblogs.com/subconscious/p/4107357.html)
   - 2017-01-18 [微信：Android 智能心跳方案](http://mp.weixin.qq.com/s/ghnmC8709DvnhieQhkLJpA)
