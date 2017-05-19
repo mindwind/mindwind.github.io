@@ -10,6 +10,7 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2017
+  - 2017-05-19 [架构师｜无需使用新框架即可实现高效的5种方法](https://mp.weixin.qq.com/s/NWEVjy-fqSrbu1mtHQ1ahA)
   - 2017-04-13 [各位大佬，别再拿人工智能当春药了！](https://mp.weixin.qq.com/s/dKzn1UOFFGSuifo4MSXvCA)
   - 2017-04-08 [主观世界的破碎与重建——湖畔大学的失败课外课](https://mp.weixin.qq.com/s/5b_f4gcri81HATDx43tRQw)
   - 2017-04-08 [70%以上业务由H5开发，手机QQ Hybrid 的架构如何优化演进？](https://mp.weixin.qq.com/s/evzDnTsHrAr2b9jcevwBzA)
