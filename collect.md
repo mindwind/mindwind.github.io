@@ -102,6 +102,7 @@ image    : /assets/images/collect.jpg
 
 
 ### 2017
+  - 2017-06-06 [QQ会员基于hybrid的高质量H5架构实践](https://mp.weixin.qq.com/s/95GLZaGqUZ-QaWAS9oy2rw)
   - 2017-04-24 [CNN浅析和历年ImageNet冠军模型解析](https://mp.weixin.qq.com/s/fhJbE6V7r0nhVU3Vu0EGbw)
   - 2017-04-13 [神经网络浅讲：从神经元到深度学习](http://www.cnblogs.com/subconscious/p/5058741.html)
   - 2017-04-13 [从机器学习谈起](http://www.cnblogs.com/subconscious/p/4107357.html)
@@ -157,6 +158,11 @@ image    : /assets/images/collect.jpg
 
 ## 投资
 -------------------------------------------------------------------------------
+
+
+### 2017
+  - 2017-06-06 [比特币离真实货币还有多远？](https://mp.weixin.qq.com/s/GYdqynB6geWQGWtjIPu_8Q)
+
 
 ### 2016
   - 2016-09-04 [关于期权的若干硬知识](http://mp.weixin.qq.com/s?__biz=MjM5NzI0Mjg0MA==&mid=2652371097&idx=1&sn=a6a8fca3734a8f5aa14c532e602f0d38&scene=0)
