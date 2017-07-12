@@ -10,10 +10,10 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2017
+  - 2017-07-12 [我看绩效考核](http://coolshell.cn/articles/17972.html?from=timeline&isappinstalled=0)
   - 2017-05-19 [架构师｜无需使用新框架即可实现高效的5种方法](https://mp.weixin.qq.com/s/NWEVjy-fqSrbu1mtHQ1ahA)
   - 2017-04-13 [各位大佬，别再拿人工智能当春药了！](https://mp.weixin.qq.com/s/dKzn1UOFFGSuifo4MSXvCA)
   - 2017-04-08 [主观世界的破碎与重建——湖畔大学的失败课外课](https://mp.weixin.qq.com/s/5b_f4gcri81HATDx43tRQw)
-  - 2017-04-08 [70%以上业务由H5开发，手机QQ Hybrid 的架构如何优化演进？](https://mp.weixin.qq.com/s/evzDnTsHrAr2b9jcevwBzA)
   - 2017-04-08 [你与优秀管理者之间只差这一个图谱](https://mp.weixin.qq.com/s/7MKkP1wMx_5W8_YzsQVq6Q)
   - 2017-02-18 [写作是一种高质量的社交](http://mp.weixin.qq.com/s/y_hBS-i7d9hk-6i1HJsK2w)
   - 2017-02-17 [糟糕的程序员面试](http://mp.weixin.qq.com/s/E76VpH848HoCFu5sSKG6Mw)
@@ -108,6 +108,7 @@ image    : /assets/images/collect.jpg
   - 2017-04-24 [CNN浅析和历年ImageNet冠军模型解析](https://mp.weixin.qq.com/s/fhJbE6V7r0nhVU3Vu0EGbw)
   - 2017-04-13 [神经网络浅讲：从神经元到深度学习](http://www.cnblogs.com/subconscious/p/5058741.html)
   - 2017-04-13 [从机器学习谈起](http://www.cnblogs.com/subconscious/p/4107357.html)
+  - 2017-04-08 [70% 以上业务由 H5 开发，手机 QQ Hybrid 的架构如何优化演进？](https://mp.weixin.qq.com/s/evzDnTsHrAr2b9jcevwBzA)
   - 2017-01-18 [微信：Android 智能心跳方案](http://mp.weixin.qq.com/s/ghnmC8709DvnhieQhkLJpA)
   - 2017-01-18 [微信：Mars 系列1 - 高性能日志模块 xlog](http://mp.weixin.qq.com/s/cnhuEodJGIbdodh0IxNeXQ)
   - 2017-01-18 [微信：Mars 系列2 - 信令传输超时设计](http://mp.weixin.qq.com/s/PnICVDyVuMSyvpvTrdEpSQ)
