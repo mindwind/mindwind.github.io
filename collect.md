@@ -10,6 +10,7 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2017
+  - 2017-07-27 [如何掌握所有的程序语言](http://www.yinwang.org/blog-cn/2017/07/06/master-pl)
   - 2017-07-12 [我看绩效考核](http://coolshell.cn/articles/17972.html?from=timeline&isappinstalled=0)
   - 2017-05-19 [架构师｜无需使用新框架即可实现高效的5种方法](https://mp.weixin.qq.com/s/NWEVjy-fqSrbu1mtHQ1ahA)
   - 2017-04-13 [各位大佬，别再拿人工智能当春药了！](https://mp.weixin.qq.com/s/dKzn1UOFFGSuifo4MSXvCA)
