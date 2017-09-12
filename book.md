@@ -8,6 +8,7 @@ image    : /assets/images/book.jpg
 
 ## 2017
 -------------------------------------------------------------------------------
+  - 2017-07-12 [数学之美](https://book.douban.com/subject/26163454/)
   - 2017-05-07 [智能时代](https://book.douban.com/subject/26838557/)
   - 2017-04-10 [Principles](https://book.douban.com/subject/20036150/)
   - 2017-03-06 [关于智能](https://book.douban.com/subject/25926823/)
