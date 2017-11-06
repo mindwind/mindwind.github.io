@@ -104,6 +104,8 @@ image    : /assets/images/collect.jpg
 
 
 ### 2017
+  - 2017-11-06 [全链路稳定性背后的数字化支撑：阿里巴巴鹰眼技术解密](https://mp.weixin.qq.com/s/xyJ4GB955PoOXk7UOMqGBw)
+  - 2017-11-06 [微信全文搜索优化之路](https://mp.weixin.qq.com/s/AhYECT3HVyn1ikB0YQ-UVg)
   - 2017-08-08 [深入浅出AES算法](https://mp.weixin.qq.com/s/27PJxrZ7sid4miyTFoKCZQ)
   - 2017-07-11 [微信红包后台系统可用性设计实践](https://mp.weixin.qq.com/s/dKFbLMePvVoDwvvfQz-NPg)
   - 2017-07-04 [如何做一个对账系统](https://mp.weixin.qq.com/s/ZX-XSu5todaKuqSOWvTgxw)
