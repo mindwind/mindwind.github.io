@@ -8,6 +8,7 @@ image    : /assets/images/book.jpg
 
 ## 2017
 -------------------------------------------------------------------------------
+  - 2017-12-25 [The War of Art](https://book.douban.com/subject/10955097/)
   - 2017-11-11 [成为技术领导者：掌握全面解决问题的方法](https://book.douban.com/subject/26419762/)
   - 2017-07-12 [数学之美](https://book.douban.com/subject/26163454/)
   - 2017-05-07 [智能时代](https://book.douban.com/subject/26838557/)
