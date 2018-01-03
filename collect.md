@@ -10,6 +10,8 @@ image    : /assets/images/collect.jpg
 -------------------------------------------------------------------------------
 
 ### 2017
+  - 2017-11-06 [程序员的好日子什么时候才到头？](https://mp.weixin.qq.com/s/xU4EoaveoCKNqa7-6eMzfQ)
+  - 2017-10-31 [腾讯副总裁曾宇：谈谈腾讯的技术价值观与技术人才修炼](https://mp.weixin.qq.com/s/Vn0eKvY5AU1DEOrxbOxABQ)
   - 2017-08-23 [一个程序员的审美情感](https://mp.weixin.qq.com/s/9mqY8GnrtOj-vfG3_OsEJA)
   - 2017-07-27 [如何掌握所有的程序语言](http://www.yinwang.org/blog-cn/2017/07/06/master-pl)
   - 2017-07-12 [我看绩效考核](http://coolshell.cn/articles/17972.html?from=timeline&isappinstalled=0)
