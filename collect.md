@@ -9,8 +9,8 @@ image    : /assets/images/collect.jpg
 ## 随笔
 -------------------------------------------------------------------------------
 
-
 ### 2018
+  - 2018-01-31 [How to Dramatically Improve your Public Speaking Skills](https://betterhumans.coach.me/how-to-dramatically-improve-your-public-speaking-skills-cd26b7d08a96)
   - 2018-01-15 [用户体验与结婚教练](https://mp.weixin.qq.com/s/MYSVIcZ-fECJKh0rFwON2w)
 
 
@@ -109,7 +109,6 @@ image    : /assets/images/collect.jpg
 ## 技术
 -------------------------------------------------------------------------------
 
-
 ### 2017
   - 2017-11-06 [全链路稳定性背后的数字化支撑：阿里巴巴鹰眼技术解密](https://mp.weixin.qq.com/s/xyJ4GB955PoOXk7UOMqGBw)
   - 2017-11-06 [微信全文搜索优化之路](https://mp.weixin.qq.com/s/AhYECT3HVyn1ikB0YQ-UVg)
@@ -173,6 +172,12 @@ image    : /assets/images/collect.jpg
 
 ## 投资
 -------------------------------------------------------------------------------
+
+
+### 2018
+  - 2018-01-31 [一篇文看懂加密货币的本质](https://mp.weixin.qq.com/s/mJ0WBv29pUSG02ZYEaLrrw)
+  - 2018-01-31 [区块链入门教程](http://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html)
+  - 2018-01-31 [比特币入门教程](http://www.ruanyifeng.com/blog/2018/01/bitcoin-tutorial.html)
 
 
 ### 2017
