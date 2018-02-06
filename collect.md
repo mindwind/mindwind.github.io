@@ -80,7 +80,7 @@ image    : /assets/images/collect.jpg
   - 2015-07-10 [借江山一用，转回身百年——在时代窗口与经济周期的轮回里](http://mp.weixin.qq.com/s?__biz=MjM5MjA4MjU4MQ==&mid=208766630&idx=1&sn=5f5b70f64e73fa2cb5d4cc83fffe05b8&scene=2#rd)
   - 2015-07-09 [陈凯歌和李安之间隔着什么？](http://mp.weixin.qq.com/s?__biz=MjM5OTAwNTQ0MA==&mid=208205965&idx=1&sn=748a5ecfcfadee9d1f60b2a68c3c9874#rd)
   - 2015-06-16 [为了对生活发生兴趣，我们付出了多大努力](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=213243283&idx=1&sn=59773cb8ef5cf8270f605a9e4aec7e8a#rd)
-  - 2015-06-04 [朋友：利益还是感情？](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=212685047&idx=1&sn=c6637e5bae4f355ab17952b175dc3d49#rd)
+  - 2015-06-04 [朋友：利益还是感情？](https://www.jianshu.com/p/881e75f160b1)
   - 2015-05-27 [如何对待逐渐疏远的朋友](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=212276407&idx=1&sn=0d3166f90c23ca34d1691b38ee8a5f6f#rd)
   - 2015-05-06 [程序员的成长和代码行数的关系](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=211244989&idx=1&sn=02d3612c3dd48d7080c08f9a1fdaa890#rd)
   - 2015-04-22 [为什么重写代码？](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=210785461&idx=1&sn=1f36977945bc5455adbb2dcabc07404c#rd)
