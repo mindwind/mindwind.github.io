@@ -4,7 +4,7 @@ title    : 简历
 date     : 2015-10-08
 author   : mindwind
 permalink: /resume/
-image    : /assets/images/resume_photo.jpg
+image    : /assets/images/resume_photo_800.jpg
 ---
 
 

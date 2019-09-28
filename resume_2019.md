@@ -4,7 +4,7 @@ title    : 简历-2019
 date     : 2019-09-27
 author   : mindwind
 permalink: /resume/2019/
-image    : /assets/images/resume_photo.jpg
+image    : /assets/images/resume_photo_800.jpg
 ---
 
 
