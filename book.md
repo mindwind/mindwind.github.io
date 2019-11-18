@@ -8,6 +8,7 @@ image    : /assets/images/book.jpg
 
 ## 2019
 -------------------------------------------------------------------------------
+  - 2019-11-18 [管理的常识](https://book.douban.com/subject/26901342/)
   - 2019-10-21 [赢](https://book.douban.com/subject/1313124/)
   - 2019-07-28 [奈菲文化手册](https://book.douban.com/subject/30356081/)
   - 2019-07-21 [股市真规则](https://book.douban.com/subject/4137173/)
