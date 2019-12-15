@@ -8,6 +8,7 @@ image    : /assets/images/book.jpg
 
 ## 2019
 -------------------------------------------------------------------------------
+  - 2019-12-03 [科学的广告+我的广告生涯](https://book.douban.com/subject/5300079/)
   - 2019-11-18 [管理的常识](https://book.douban.com/subject/26901342/)
   - 2019-10-21 [赢](https://book.douban.com/subject/1313124/)
   - 2019-07-28 [奈菲文化手册](https://book.douban.com/subject/30356081/)
