@@ -6,6 +6,24 @@ image    : /assets/images/book.jpg
 ---
 
 
+## 2022
+-------------------------------------------------------------------------------
+  - 2022-10-27 [小米创业思考](https://book.douban.com/subject/36057097/)
+  - 2022-10-25 [兄弟](https://book.douban.com/subject/20441957/)
+  - 2022-10-16 [巴菲特之道](https://book.douban.com/subject/35300401/)
+  - 2022-10-05 [大道朝天](https://book.douban.com/subject/34884826/)
+  - 2022-09-18 [腾讯传](https://book.douban.com/subject/26929955/)
+  - 2022-08-15 [月亮与六便士](https://book.douban.com/subject/30427430/)
+  - 2022-07-11 [苏轼传](https://book.douban.com/subject/33372437/)
+  - 2022-06-29 [对冲基金风云录1](https://book.douban.com/subject/25777421/)
+  - 2022-06-15 [沸腾新十年](https://book.douban.com/subject/35567301/)
+  - 2022-05-13 [竞争优势：透视企业护城河](https://book.douban.com/subject/35578814/)
+  - 2022-05-10 [原则](https://book.douban.com/subject/27608239/)
+  - 2022-05-02 [间客](https://book.douban.com/subject/34448849/)
+  - 2022-03-30 [激荡十年，水大鱼大](https://book.douban.com/subject/27179563/)
+  - 2022-03-11 [激荡三十年](https://book.douban.com/subject/3151575/)
+  - 2022-01-06 [大败局](https://book.douban.com/subject/4912917/)
+
 ## 2020-2021
 -------------------------------------------------------------------------------
   - 2021-11-07 [段永平投资问答录](https://book.douban.com/subject/35279134/)
