@@ -6,6 +6,20 @@ image    : /assets/images/book.jpg
 ---
 
 
+## 2020-2021
+-------------------------------------------------------------------------------
+  - 2021-11-07 [段永平投资问答录](https://book.douban.com/subject/35279134/)
+  - 2021-10-10 [置身事内](https://book.douban.com/subject/35546622/)
+  - 2021-09-29 [人类简史](https://book.douban.com/subject/25985021/)
+  - 2021-09-04 [诡秘之主](https://book.douban.com/subject/33424453/)
+  - 2021-06-01 [周期](https://book.douban.com/subject/30443502/)
+  - 2021-05-08 [漫步华尔街](https://book.douban.com/subject/3043970/)
+  - 2021-02-15 [伟大的博弈](https://book.douban.com/subject/4012143/)
+  - 2021-02-15 [伟大的博弈](https://book.douban.com/subject/4012143/)
+  - 2020-11-17 [万历十五年](https://book.douban.com/subject/1041482/)
+  - 2020-02-04 [思考，快与慢](https://book.douban.com/subject/10785583/)
+  - 2020-01-18 [庆余年](https://book.douban.com/subject/3155622/)
+
 ## 2019
 -------------------------------------------------------------------------------
   - 2019-12-03 [科学的广告+我的广告生涯](https://book.douban.com/subject/5300079/)
